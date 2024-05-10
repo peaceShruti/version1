@@ -1,0 +1,143 @@
+CRITICAL - 2023-10-26 06:24:10 --> Class "App\Models\clientModel" not found
+in APPPATH/Controllers/Controllerclients.php on line 174.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Controllerclients->addclient()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerclients))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 06:24:26 --> Class "App\Models\clientModel" not found
+in APPPATH/Controllers/Controllerclients.php on line 174.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Controllerclients->addclient()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerclients))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 06:24:50 --> Class "App\Models\clientModel" not found
+in APPPATH/Controllers/Controllerclients.php on line 174.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Controllerclients->addclient()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerclients))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 06:26:36 --> Class "App\Models\clientModel" not found
+in APPPATH/Controllers/Controllerclients.php on line 174.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Controllerclients->addclient()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerclients))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 06:28:36 --> Class "App\Models\clientModel" not found
+in APPPATH/Controllers/Controllerclients.php on line 174.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Controllerclients->addclient()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerclients))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 06:31:26 --> Cannot use App\Models\clientModel as clientModel because the name is already in use
+in APPPATH/Controllers/Controllerclients.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-26 07:36:49 --> insertBatch() has no data.
+in SYSTEMPATH/Database/BaseBuilder.php on line 1772.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 2 SYSTEMPATH/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch([], null, 100)
+ 3 SYSTEMPATH/BaseModel.php(874): CodeIgniter\Model->doInsertBatch([], null, 100, false)
+ 4 APPPATH/Controllers/Controllercandinfo.php(282): CodeIgniter\BaseModel->insertBatch([])
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 07:54:26 --> insertBatch() has no data.
+in SYSTEMPATH/Database/BaseBuilder.php on line 1772.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 2 SYSTEMPATH/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch([], null, 100)
+ 3 SYSTEMPATH/BaseModel.php(874): CodeIgniter\Model->doInsertBatch([], null, 100, false)
+ 4 APPPATH/Controllers/Controllercandinfo.php(282): CodeIgniter\BaseModel->insertBatch([])
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 07:54:33 --> Undefined variable $CandidateModel
+in APPPATH/Controllers/BgvController.php on line 312.
+ 1 APPPATH/Controllers/BgvController.php(312): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CandidateModel', '/home3/reliableverify/public_html/crm/app/Controllers/BgvController.php', 312)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\BgvController->bgvAmount()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BgvController))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 07:56:37 --> Undefined variable $candidate
+in APPPATH/Controllers/BgvController.php on line 389.
+ 1 APPPATH/Controllers/BgvController.php(389): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $candidate', '/home3/reliableverify/public_html/crm/app/Controllers/BgvController.php', 389)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\BgvController->amountApproval()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BgvController))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:27:02 --> Undefined variable $color
+in APPPATH/Controllers/BgvController.php on line 210.
+ 1 APPPATH/Controllers/BgvController.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $color', '/home3/reliableverify/public_html/crm/app/Controllers/BgvController.php', 210)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\BgvController->addIndividualStatus()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BgvController))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 11:54:18 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-26 11:55:31 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-26 11:55:45 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2023-10-26 09:57:28 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'reliable_CRMbsi20dsfrsnniow'@'localhost' (using password: YES) in C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'reliable_CRMbsi...', 'kJ{%roWs!)gs', 'reliable_CRMbsi...', 3306, '', 0)
+#1 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ReliableVerify\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ReliableVerify\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllerlogin.php(28): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\Controllerlogin->login()
+#8 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerlogin))
+#9 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ReliableVerify\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ReliableVerify\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllerlogin.php(28): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\Controllerlogin->login()
+#7 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerlogin))
+#8 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-26 09:57:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users011`
+WHERE `username013` = :username013:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Controllerlogin.php(28): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerlogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerlogin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:11:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Controllerusers.php on line 331.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->candidateDetails()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 10:53:30 --> Illegal string offset 'signature'
+in APPPATH\Views\candidate-declaration.php on line 202.
+ 1 APPPATH\Views\candidate-declaration.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'signature\'', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-declaration.php', 202, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-declaration.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-declaration', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(108): view('candidate-declaration', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->Declaration()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,366 @@
+CRITICAL - 2023-12-06 05:07:11 --> Undefined variable $comment
+in APPPATH\Views\emp-dashboard.php on line 739.
+ 1 APPPATH\Views\emp-dashboard.php(739): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $comment', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 739)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(125): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 05:08:56 --> Array to string conversion
+in APPPATH\Views\emp-dashboard.php on line 739.
+ 1 APPPATH\Views\emp-dashboard.php(739): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 739)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(125): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 05:24:54 --> Call to undefined method App\Models\CommentsModel::order_by
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Views\emp-dashboard.php(740): CodeIgniter\Model->__call('order_by', [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(125): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 05:35:51 --> Undefined array key "id"
+in APPPATH\Views\emp-dashboard.php on line 743.
+ 1 APPPATH\Views\emp-dashboard.php(743): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 743)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(125): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 05:38:18 --> Cannot access offset of type string on string
+in APPPATH\Views\emp-dashboard.php on line 743.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(125): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 05:39:01 --> Uninitialized string offset 0
+in APPPATH\Views\emp-dashboard.php on line 743.
+ 1 APPPATH\Views\emp-dashboard.php(743): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 0', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 743)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(125): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 05:40:52 --> Uninitialized string offset 0
+in APPPATH\Views\emp-dashboard.php on line 742.
+ 1 APPPATH\Views\emp-dashboard.php(742): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 0', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 742)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(125): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 05:42:07 --> Attempt to read property "id" on array
+in APPPATH\Views\emp-dashboard.php on line 745.
+ 1 APPPATH\Views\emp-dashboard.php(745): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 745)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(125): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 05:49:53 --> Undefined variable $previousId
+in APPPATH\Views\emp-dashboard.php on line 749.
+ 1 APPPATH\Views\emp-dashboard.php(749): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $previousId', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 749)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(125): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 06:25:18 --> Call to undefined function startsWith()
+in APPPATH\Views\emp-dashboard.php on line 754.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(125): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 09:18:19 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ReliableVerify\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ReliableVerify\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllerusers.php(338): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+#8 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+#9 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-06 09:18:19 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `clients011`
+WHERE `report_type` = (\'Final\',\'Interim\')
+AND `status` IN (\'Negative\',\'Discrepant\')
+AND DATE_FORMAT(createdat021, \'%Y-%m\') = \'2023-12\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `clients011`
+WHERE `report_type` = (\'Final\',\'Interim\')
+AND `status` IN (\'Negative\',\'Discrepant\')
+AND DATE_FORMAT(createdat021, \'%Y-%m\') = \'2023-12\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `clients011`
+WHERE `report_type` = (\'Final\',\'Interim\')
+AND `status` IN (\'Negative\',\'Discrepant\')
+AND DATE_FORMAT(createdat021, \'%Y-%m\') = \'2023-12\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `clients011`
+WHERE `report_type` = :report_type:
+AND `status` IN :status:
+AND DATE_FORMAT(createdat021, \'%Y-%m\') = :DATE_FORMAT(createdat021, \'%Y-%m\'):', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Controllerusers.php(338): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 09:27:53 --> Class "App\Controllers\Carbon" not found
+in APPPATH\Controllers\Controllerusers.php on line 335.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 09:30:08 --> Class "Carbon\Carbon" not found
+in APPPATH\Controllers\Controllerusers.php on line 336.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:22:36 --> Array to string conversion
+in APPPATH\Controllers\Controllerusers.php on line 346.
+ 1 APPPATH\Controllers\Controllerusers.php(346): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllerusers.php', 346)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:29:49 --> Undefined variable $report
+in APPPATH\Controllers\Controllerusers.php on line 347.
+ 1 APPPATH\Controllers\Controllerusers.php(347): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $report', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllerusers.php', 347)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:33:21 --> Undefined variable $reportData
+in APPPATH\Controllers\Controllerusers.php on line 347.
+ 1 APPPATH\Controllers\Controllerusers.php(347): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reportData', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllerusers.php', 347)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:33:43 --> Undefined array key "report"
+in APPPATH\Controllers\Controllerusers.php on line 347.
+ 1 APPPATH\Controllers\Controllerusers.php(347): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "report"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllerusers.php', 347)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:34:21 --> Array to string conversion
+in APPPATH\Controllers\Controllerusers.php on line 353.
+ 1 APPPATH\Controllers\Controllerusers.php(353): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllerusers.php', 353)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:34:31 --> Undefined array key "report"
+in APPPATH\Controllers\Controllerusers.php on line 353.
+ 1 APPPATH\Controllers\Controllerusers.php(353): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "report"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllerusers.php', 353)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:34:52 --> Attempt to read property "report" on array
+in APPPATH\Controllers\Controllerusers.php on line 353.
+ 1 APPPATH\Controllers\Controllerusers.php(353): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "report" on array', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllerusers.php', 353)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:36:21 --> Array to string conversion
+in APPPATH\Controllers\Controllerusers.php on line 346.
+ 1 APPPATH\Controllers\Controllerusers.php(346): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllerusers.php', 346)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 10:42:59 --> mysqli_sql_exception: Not unique table/alias: 'clients011' in C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllerusers.php(351): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+#6 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+#7 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-06 10:42:59 --> Not unique table/alias: 'clients011'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM (`clients011`, `clients011`)
+JOIN `bgv_report` ON `clients011`.`id012` = `bgv_report`.`id012`
+WHERE `clients011`.`report_type` IN (\'Final\',\'Interim\')
+AND `clients011`.`status` IN (\'Negative\',\'Discrepant\')
+AND DATE_FORMAT(clients011.updated_at, \'%Y-%m\') = \'2023-12\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`clients011`, `clients011`)
+JOIN `bgv_report` ON `clients011`.`id012` = `bgv_report`.`id012`
+WHERE `clients011`.`report_type` IN (\'Final\',\'Interim\')
+AND `clients011`.`status` IN (\'Negative\',\'Discrepant\')
+AND DATE_FORMAT(clients011.updated_at, \'%Y-%m\') = \'2023-12\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`clients011`, `clients011`)
+JOIN `bgv_report` ON `clients011`.`id012` = `bgv_report`.`id012`
+WHERE `clients011`.`report_type` IN (\'Final\',\'Interim\')
+AND `clients011`.`status` IN (\'Negative\',\'Discrepant\')
+AND DATE_FORMAT(clients011.updated_at, \'%Y-%m\') = \'2023-12\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`clients011`, `clients011`)
+JOIN `bgv_report` ON `clients011`.`id012` = `bgv_report`.`id012`
+WHERE `clients011`.`report_type` IN :clients011.report_type:
+AND `clients011`.`status` IN :clients011.status:
+AND DATE_FORMAT(clients011.updated_at, \'%Y-%m\') = :DATE_FORMAT(clients011.updated_at, \'%Y-%m\'):', [...], false)
+ 5 APPPATH\Controllers\Controllerusers.php(351): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 10:44:17 --> mysqli_sql_exception: Not unique table/alias: 'clients011' in C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllerusers.php(351): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+#6 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+#7 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-06 10:44:17 --> Not unique table/alias: 'clients011'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM (`clients011`, `clients011`)
+JOIN `bgv_report` ON `clients011`.`id012` = `bgv_report`.`id012`
+WHERE `clients011`.`report_type` IN (\'Final\',\'Interim\')
+AND `clients011`.`status` IN (\'Negative\',\'Discrepant\')
+AND DATE_FORMAT(clients011.updated_at, \'%Y-%m\') = \'2023-12\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`clients011`, `clients011`)
+JOIN `bgv_report` ON `clients011`.`id012` = `bgv_report`.`id012`
+WHERE `clients011`.`report_type` IN (\'Final\',\'Interim\')
+AND `clients011`.`status` IN (\'Negative\',\'Discrepant\')
+AND DATE_FORMAT(clients011.updated_at, \'%Y-%m\') = \'2023-12\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`clients011`, `clients011`)
+JOIN `bgv_report` ON `clients011`.`id012` = `bgv_report`.`id012`
+WHERE `clients011`.`report_type` IN (\'Final\',\'Interim\')
+AND `clients011`.`status` IN (\'Negative\',\'Discrepant\')
+AND DATE_FORMAT(clients011.updated_at, \'%Y-%m\') = \'2023-12\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`clients011`, `clients011`)
+JOIN `bgv_report` ON `clients011`.`id012` = `bgv_report`.`id012`
+WHERE `clients011`.`report_type` IN :clients011.report_type:
+AND `clients011`.`status` IN :clients011.status:
+AND DATE_FORMAT(clients011.updated_at, \'%Y-%m\') = :DATE_FORMAT(clients011.updated_at, \'%Y-%m\'):', [...], false)
+ 5 APPPATH\Controllers\Controllerusers.php(351): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 10:44:32 --> mysqli_sql_exception: Not unique table/alias: 'clients011' in C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllerusers.php(351): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+#6 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+#7 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-06 10:44:32 --> Not unique table/alias: 'clients011'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM (`clients011`, `clients011`)
+JOIN `bgv_report` ON `clients011`.`id012` = `bgv_report`.`id012`
+WHERE `clients011`.`report_type` IN (\'Final\',\'Interim\')
+AND `clients011`.`status` IN (\'Negative\',\'Discrepant\')
+AND DATE_FORMAT(clients011.updated_at, \'%Y-%m\') = \'2023-12\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`clients011`, `clients011`)
+JOIN `bgv_report` ON `clients011`.`id012` = `bgv_report`.`id012`
+WHERE `clients011`.`report_type` IN (\'Final\',\'Interim\')
+AND `clients011`.`status` IN (\'Negative\',\'Discrepant\')
+AND DATE_FORMAT(clients011.updated_at, \'%Y-%m\') = \'2023-12\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`clients011`, `clients011`)
+JOIN `bgv_report` ON `clients011`.`id012` = `bgv_report`.`id012`
+WHERE `clients011`.`report_type` IN (\'Final\',\'Interim\')
+AND `clients011`.`status` IN (\'Negative\',\'Discrepant\')
+AND DATE_FORMAT(clients011.updated_at, \'%Y-%m\') = \'2023-12\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`clients011`, `clients011`)
+JOIN `bgv_report` ON `clients011`.`id012` = `bgv_report`.`id012`
+WHERE `clients011`.`report_type` IN :clients011.report_type:
+AND `clients011`.`status` IN :clients011.status:
+AND DATE_FORMAT(clients011.updated_at, \'%Y-%m\') = :DATE_FORMAT(clients011.updated_at, \'%Y-%m\'):', [...], false)
+ 5 APPPATH\Controllers\Controllerusers.php(351): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:47:32 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Controllerusers.php on line 356.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:48:10 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Controllerusers.php on line 358.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:48:40 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Controllerusers.php on line 359.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->sendReport()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,44 @@
+CRITICAL - 2023-12-16 07:18:10 --> Class "ZipArchive" not found
+in FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 63.
+ 1 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php(158): PhpOffice\PhpSpreadsheet\Shared\File::fileExists('zip://C:\\xampp\\tmp\\php18D7.tmp#_rels/.rels')
+ 2 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(427): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('C:\\xampp\\tmp\\php18D7.tmp', '_rels/.rels')
+ 3 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\BaseReader.php(182): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('C:\\xampp\\tmp\\php18D7.tmp')
+ 4 APPPATH\Controllers\Controllerclients.php(484): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('C:\\xampp\\tmp\\php18D7.tmp')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerclients->uploadCandidate()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerclients))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-16 07:20:04 --> Class "ZipArchive" not found
+in FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 63.
+ 1 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php(158): PhpOffice\PhpSpreadsheet\Shared\File::fileExists('zip://C:\\xampp\\tmp\\phpD657.tmp#_rels/.rels')
+ 2 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(427): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('C:\\xampp\\tmp\\phpD657.tmp', '_rels/.rels')
+ 3 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\BaseReader.php(182): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('C:\\xampp\\tmp\\phpD657.tmp')
+ 4 APPPATH\Controllers\Controllerclients.php(484): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('C:\\xampp\\tmp\\phpD657.tmp')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerclients->uploadCandidate()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerclients))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-16 07:21:28 --> Class "ZipArchive" not found
+in FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 63.
+ 1 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php(158): PhpOffice\PhpSpreadsheet\Shared\File::fileExists('zip://C:\\xampp\\tmp\\php1C65.tmp#_rels/.rels')
+ 2 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(427): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('C:\\xampp\\tmp\\php1C65.tmp', '_rels/.rels')
+ 3 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\BaseReader.php(182): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('C:\\xampp\\tmp\\php1C65.tmp')
+ 4 APPPATH\Controllers\Controllerclients.php(484): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('C:\\xampp\\tmp\\php1C65.tmp')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerclients->uploadCandidate()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerclients))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-16 07:26:55 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Controllercandinfo.php on line 722.
+ 1 APPPATH\Controllers\Controllercandinfo.php(722): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 722)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addSignature()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-16 07:32:11 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Controllercandinfo.php on line 744.
+ 1 APPPATH\Controllers\Controllercandinfo.php(744): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 744)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addSignature()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

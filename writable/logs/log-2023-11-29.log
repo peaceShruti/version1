@@ -1,0 +1,721 @@
+ERROR - 2023-11-29 05:07:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 5 in C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ReliableVerify\app\Views\emp-dashboard.php(281): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ReliableVerify\system\View\View.php(224): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ReliableVerify\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ReliableVerify\system\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', Array, true)
+#8 C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllerusers.php(123): view('emp-dashboard', Array)
+#9 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+#10 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+#11 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-11-29 05:07:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'
+AND  IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'
+AND  IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'
+AND  IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = :bgv_status.id012:
+AND  IS NULL', [...], false)
+ 5 APPPATH\Views\emp-dashboard.php(281): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 9 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-29 05:10:41 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ReliableVerify\app\Views\emp-dashboard.php(281): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ReliableVerify\system\View\View.php(224): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ReliableVerify\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ReliableVerify\system\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', Array, true)
+#8 C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllerusers.php(123): view('emp-dashboard', Array)
+#9 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+#10 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+#11 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-11-29 05:10:41 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'
+AND `icon_class` = (\'far fa-clock Green\',\'far fa-clock Red\',\'far fa-clock Orange\',\'far fa-clock Blue\',\'fas fa-exclamation-triangle text-white\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'
+AND `icon_class` = (\'far fa-clock Green\',\'far fa-clock Red\',\'far fa-clock Orange\',\'far fa-clock Blue\',\'fas fa-exclamation-triangle text-white\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'
+AND `icon_class` = (\'far fa-clock Green\',\'far fa-clock Red\',\'far fa-clock Orange\',\'far fa-clock Blue\',\'fas fa-exclamation-triangle text-white\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = :bgv_status.id012:
+AND `icon_class` = :icon_class:', [...], false)
+ 5 APPPATH\Views\emp-dashboard.php(281): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 9 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-29 05:11:52 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ReliableVerify\app\Views\emp-dashboard.php(281): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ReliableVerify\system\View\View.php(224): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ReliableVerify\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ReliableVerify\system\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', Array, true)
+#8 C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllerusers.php(123): view('emp-dashboard', Array)
+#9 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+#10 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+#11 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-11-29 05:11:52 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'
+AND `bgv_comments`.`icon_class` = (\'far fa-clock Green\',\'far fa-clock Red\',\'far fa-clock Orange\',\'far fa-clock Blue\',\'fas fa-exclamation-triangle text-white\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'
+AND `bgv_comments`.`icon_class` = (\'far fa-clock Green\',\'far fa-clock Red\',\'far fa-clock Orange\',\'far fa-clock Blue\',\'fas fa-exclamation-triangle text-white\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'
+AND `bgv_comments`.`icon_class` = (\'far fa-clock Green\',\'far fa-clock Red\',\'far fa-clock Orange\',\'far fa-clock Blue\',\'fas fa-exclamation-triangle text-white\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = :bgv_status.id012:
+AND `bgv_comments`.`icon_class` = :bgv_comments.icon_class:', [...], false)
+ 5 APPPATH\Views\emp-dashboard.php(281): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 9 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-29 05:11:53 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ReliableVerify\app\Views\emp-dashboard.php(281): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ReliableVerify\system\View\View.php(224): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ReliableVerify\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ReliableVerify\system\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', Array, true)
+#8 C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllerusers.php(123): view('emp-dashboard', Array)
+#9 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+#10 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+#11 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-11-29 05:11:54 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'
+AND `bgv_comments`.`icon_class` = (\'far fa-clock Green\',\'far fa-clock Red\',\'far fa-clock Orange\',\'far fa-clock Blue\',\'fas fa-exclamation-triangle text-white\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'
+AND `bgv_comments`.`icon_class` = (\'far fa-clock Green\',\'far fa-clock Red\',\'far fa-clock Orange\',\'far fa-clock Blue\',\'fas fa-exclamation-triangle text-white\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'
+AND `bgv_comments`.`icon_class` = (\'far fa-clock Green\',\'far fa-clock Red\',\'far fa-clock Orange\',\'far fa-clock Blue\',\'fas fa-exclamation-triangle text-white\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = :bgv_status.id012:
+AND `bgv_comments`.`icon_class` = :bgv_comments.icon_class:', [...], false)
+ 5 APPPATH\Views\emp-dashboard.php(281): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 9 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 05:21:01 --> Undefined variable $date
+in APPPATH\Views\emp-dashboard.php on line 286.
+ 1 APPPATH\Views\emp-dashboard.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $date', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 286)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 05:22:12 --> Undefined array key "icon_class"
+in APPPATH\Views\emp-dashboard.php on line 286.
+ 1 APPPATH\Views\emp-dashboard.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon_class"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 286)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 05:22:51 --> Undefined array key "icon_class"
+in APPPATH\Views\emp-dashboard.php on line 287.
+ 1 APPPATH\Views\emp-dashboard.php(287): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon_class"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 287)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 05:23:11 --> Undefined array key "icon_class"
+in APPPATH\Views\emp-dashboard.php on line 287.
+ 1 APPPATH\Views\emp-dashboard.php(287): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon_class"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 287)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 05:23:42 --> Attempt to read property "icon_class" on array
+in APPPATH\Views\emp-dashboard.php on line 287.
+ 1 APPPATH\Views\emp-dashboard.php(287): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "icon_class" on array', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 287)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 05:23:44 --> Attempt to read property "icon_class" on array
+in APPPATH\Views\emp-dashboard.php on line 287.
+ 1 APPPATH\Views\emp-dashboard.php(287): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "icon_class" on array', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 287)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 05:24:49 --> Cannot use object of type stdClass as array
+in APPPATH\Views\emp-dashboard.php on line 289.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 05:25:11 --> Cannot use object of type stdClass as array
+in APPPATH\Views\emp-dashboard.php on line 326.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 05:25:45 --> Cannot use object of type stdClass as array
+in APPPATH\Views\emp-dashboard.php on line 326.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 05:57:07 --> Undefined variable $item
+in APPPATH\Views\emp-dashboard.php on line 302.
+ 1 APPPATH\Views\emp-dashboard.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 302)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 06:55:51 --> Attempt to read property "icon_class" on array
+in APPPATH\Views\emp-dashboard.php on line 288.
+ 1 APPPATH\Views\emp-dashboard.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "icon_class" on array', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 288)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 06:57:11 --> Undefined array key "icon_class"
+in APPPATH\Views\emp-dashboard.php on line 288.
+ 1 APPPATH\Views\emp-dashboard.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon_class"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 288)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 06:58:47 --> Undefined array key "icon_class"
+in APPPATH\Views\emp-dashboard.php on line 288.
+ 1 APPPATH\Views\emp-dashboard.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon_class"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 288)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 07:02:10 --> Undefined variable $result
+in APPPATH\Views\emp-dashboard.php on line 284.
+ 1 APPPATH\Views\emp-dashboard.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 284)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 07:06:12 --> Undefined variable $query
+in APPPATH\Views\emp-dashboard.php on line 283.
+ 1 APPPATH\Views\emp-dashboard.php(283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 283)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 07:08:21 --> Cannot use object of type stdClass as array
+in APPPATH\Views\emp-dashboard.php on line 306.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 07:13:17 --> Undefined variable $value
+in APPPATH\Views\emp-dashboard.php on line 289.
+ 1 APPPATH\Views\emp-dashboard.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 289)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 07:13:49 --> Cannot use object of type stdClass as array
+in APPPATH\Views\emp-dashboard.php on line 292.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 09:31:04 --> Undefined array key "icon_class"
+in APPPATH\Views\emp-dashboard.php on line 298.
+ 1 APPPATH\Views\emp-dashboard.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon_class"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 298)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 09:32:22 --> Cannot use object of type stdClass as array
+in APPPATH\Views\emp-dashboard.php on line 299.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 09:35:35 --> Attempt to read property "icon_class" on string
+in APPPATH\Views\emp-dashboard.php on line 299.
+ 1 APPPATH\Views\emp-dashboard.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "icon_class" on string', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 299)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 09:36:04 --> Cannot use object of type stdClass as array
+in APPPATH\Views\emp-dashboard.php on line 299.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 09:36:36 --> Attempt to read property "icon_class" on string
+in APPPATH\Views\emp-dashboard.php on line 299.
+ 1 APPPATH\Views\emp-dashboard.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "icon_class" on string', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 299)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 09:37:01 --> Attempt to read property "icon_class" on array
+in APPPATH\Views\emp-dashboard.php on line 299.
+ 1 APPPATH\Views\emp-dashboard.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "icon_class" on array', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 299)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 09:38:22 --> Cannot use object of type stdClass as array
+in APPPATH\Views\emp-dashboard.php on line 299.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 09:38:45 --> Cannot use object of type stdClass as array
+in APPPATH\Views\emp-dashboard.php on line 299.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 09:48:01 --> Undefined variable $result
+in APPPATH\Views\emp-dashboard.php on line 315.
+ 1 APPPATH\Views\emp-dashboard.php(315): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 315)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 09:53:21 --> Array to string conversion
+in APPPATH\Views\emp-dashboard.php on line 314.
+ 1 APPPATH\Views\emp-dashboard.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 314)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 09:53:34 --> Array to string conversion
+in APPPATH\Views\emp-dashboard.php on line 314.
+ 1 APPPATH\Views\emp-dashboard.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 314)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 09:58:04 --> Undefined variable $index
+in APPPATH\Views\emp-dashboard.php on line 315.
+ 1 APPPATH\Views\emp-dashboard.php(315): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 315)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:01:58 --> Cannot use object of type stdClass as array
+in APPPATH\Views\emp-dashboard.php on line 300.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:13:39 --> Cannot use object of type stdClass as array
+in APPPATH\Views\emp-dashboard.php on line 300.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:13:53 --> Cannot use object of type stdClass as array
+in APPPATH\Views\emp-dashboard.php on line 316.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:14:16 --> Undefined variable $result
+in APPPATH\Views\emp-dashboard.php on line 301.
+ 1 APPPATH\Views\emp-dashboard.php(301): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 301)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:51:08 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::where(), 0 passed in C:\xampp\htdocs\ReliableVerify\system\Model.php on line 836 and at least 1 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 696.
+ 1 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->where()
+ 2 APPPATH\Views\emp-dashboard.php(291): CodeIgniter\Model->__call('where', [])
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 6 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:37:22 --> Cannot access offset of type string on string
+in APPPATH\Views\emp-dashboard.php on line 292.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:37:36 --> Attempt to read property "icon_class" on string
+in APPPATH\Views\emp-dashboard.php on line 292.
+ 1 APPPATH\Views\emp-dashboard.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "icon_class" on string', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 292)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:38:54 --> array_merge(): Argument #2 must be of type array, null given
+in APPPATH\Views\emp-dashboard.php on line 285.
+ 1 APPPATH\Views\emp-dashboard.php(285): array_merge([], null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:39:33 --> Undefined array key "icon_class"
+in APPPATH\Views\emp-dashboard.php on line 292.
+ 1 APPPATH\Views\emp-dashboard.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon_class"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 292)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:39:46 --> Attempt to read property "icon_class" on array
+in APPPATH\Views\emp-dashboard.php on line 292.
+ 1 APPPATH\Views\emp-dashboard.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "icon_class" on array', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 292)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:40:28 --> Undefined array key "status_for"
+in APPPATH\Views\emp-dashboard.php on line 298.
+ 1 APPPATH\Views\emp-dashboard.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status_for"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 298)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:40:54 --> Attempt to read property "status_for" on array
+in APPPATH\Views\emp-dashboard.php on line 298.
+ 1 APPPATH\Views\emp-dashboard.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "status_for" on array', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 298)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:41:18 --> Cannot access offset of type string on string
+in APPPATH\Views\emp-dashboard.php on line 292.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:42:38 --> Cannot access offset of type string on string
+in APPPATH\Views\emp-dashboard.php on line 292.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:46:06 --> Undefined array key "icon_class"
+in APPPATH\Views\emp-dashboard.php on line 291.
+ 1 APPPATH\Views\emp-dashboard.php(291): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon_class"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 291)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:57:06 --> Undefined array key ""
+in APPPATH\Views\emp-dashboard.php on line 292.
+ 1 APPPATH\Views\emp-dashboard.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 292)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-29 12:08:42 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\xampp\htdocs\ReliableVerify\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1868)
+#1 C:\xampp\htdocs\ReliableVerify\system\Email\Email.php(1868): fsockopen('smtp.gmail.com', 587, NULL, NULL, 5)
+#2 C:\xampp\htdocs\ReliableVerify\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\ReliableVerify\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\ReliableVerify\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\ReliableVerify\app\Controllers\BgvController.php(164): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\BgvController->addComment()
+#7 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BgvController))
+#8 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-11-29 12:08:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-29 12:08:42 --> 
+ERROR - 2023-11-29 12:10:54 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\xampp\htdocs\ReliableVerify\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1868)
+#1 C:\xampp\htdocs\ReliableVerify\system\Email\Email.php(1868): fsockopen('smtp.gmail.com', 587, NULL, NULL, 5)
+#2 C:\xampp\htdocs\ReliableVerify\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\ReliableVerify\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\ReliableVerify\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\ReliableVerify\app\Controllers\BgvController.php(173): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\BgvController->addComment()
+#7 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BgvController))
+#8 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-11-29 12:10:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-29 12:10:54 --> 
+CRITICAL - 2023-11-29 13:19:53 --> Undefined variable $BgvStatusModel
+in APPPATH\Views\emp-dashboard-client-emp.php on line 269.
+ 1 APPPATH\Views\emp-dashboard-client-emp.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $BgvStatusModel', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard-client-emp.php', 269)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard-client-emp.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard-client-emp', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(142): view('emp-dashboard-client-emp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdashClient()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

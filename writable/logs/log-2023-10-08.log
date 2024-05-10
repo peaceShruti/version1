@@ -1,0 +1,734 @@
+INFO - 2023-10-08 06:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:15:21 --> CSRF token verified.
+INFO - 2023-10-08 06:15:22 --> CSRF token verified.
+INFO - 2023-10-08 06:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:20:44 --> CSRF token verified.
+CRITICAL - 2023-10-08 06:20:45 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Controllercandinfo.php on line 254.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 06:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:25:04 --> CSRF token verified.
+CRITICAL - 2023-10-08 06:25:04 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Controllercandinfo.php on line 254.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 06:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:26:20 --> CSRF token verified.
+INFO - 2023-10-08 06:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 06:29:06 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('reliableverify/candidate-info', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 06:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:30:07 --> CSRF token verified.
+INFO - 2023-10-08 06:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 06:32:44 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('reliableverify/candidate-info', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 06:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 06:34:37 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('reliableverify/candidate-info', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 06:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:37:32 --> CSRF token verified.
+INFO - 2023-10-08 06:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 06:41:42 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('reliableverify/candidate-info', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 06:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 06:43:22 --> CSRF token verified.
+INFO - 2023-10-08 11:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 11:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 11:51:19 --> CSRF token verified.
+INFO - 2023-10-08 11:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 11:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 12:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 12:23:40 --> Undefined variable: data
+in APPPATH\Views\candidate-info.php on line 142.
+ 1 APPPATH\Views\candidate-info.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 142, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(52): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 12:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 12:24:10 --> Undefined variable: salary_emp
+in APPPATH\Views\candidate-info.php on line 142.
+ 1 APPPATH\Views\candidate-info.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: salary_emp', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 142, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(52): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 12:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 12:24:24 --> Undefined variable: salary_emp
+in APPPATH\Views\candidate-info.php on line 142.
+ 1 APPPATH\Views\candidate-info.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: salary_emp', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 142, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(52): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 12:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 12:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 12:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 12:27:23 --> Undefined variable: salary_emp
+in APPPATH\Views\candidate-info.php on line 142.
+ 1 APPPATH\Views\candidate-info.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: salary_emp', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 142, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(52): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 12:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 12:27:45 --> Undefined variable: salary_emp
+in APPPATH\Views\candidate-info.php on line 142.
+ 1 APPPATH\Views\candidate-info.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: salary_emp', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 142, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(52): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 12:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 13:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 13:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 13:19:39 --> Undefined variable: salary_emp
+in APPPATH\Views\candidate-info.php on line 142.
+ 1 APPPATH\Views\candidate-info.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: salary_emp', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 142, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(49): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 13:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 13:29:18 --> CSRF token verified.
+INFO - 2023-10-08 13:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 13:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 13:29:19 --> Undefined variable: data
+in APPPATH\Views\candidate-info.php on line 565.
+ 1 APPPATH\Views\candidate-info.php(565): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 565, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(49): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 13:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 13:30:43 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\candidate-info.php on line 565.
+ 1 APPPATH\Views\candidate-info.php(565): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$request', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 565, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(49): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 13:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 13:32:11 --> Undefined index: file_name
+in APPPATH\Views\candidate-info.php on line 565.
+ 1 APPPATH\Views\candidate-info.php(565): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: file_name', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 565, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(49): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 13:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 13:36:26 --> Array to string conversion
+in APPPATH\Views\candidate-info.php on line 568.
+ 1 APPPATH\Views\candidate-info.php(568): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 568, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(49): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 13:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 13:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 13:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 13:40:10 --> Undefined index: file_name
+in APPPATH\Views\candidate-info.php on line 567.
+ 1 APPPATH\Views\candidate-info.php(567): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: file_name', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 567, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(49): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 13:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 13:41:31 --> Undefined index: file_name
+in APPPATH\Views\candidate-info.php on line 568.
+ 1 APPPATH\Views\candidate-info.php(568): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: file_name', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 568, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(49): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 13:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 13:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 13:44:59 --> Trying to get property 'file_name' of non-object
+in APPPATH\Views\candidate-info.php on line 571.
+ 1 APPPATH\Views\candidate-info.php(571): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'file_name\' of non-object', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 571, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(49): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 13:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 13:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 13:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 13:51:31 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\candidate-info.php on line 565.
+ 1 APPPATH\Views\candidate-info.php(565): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$request', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 565, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(49): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 13:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 13:56:45 --> Undefined index: file_name
+in APPPATH\Views\candidate-info.php on line 566.
+ 1 APPPATH\Views\candidate-info.php(566): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: file_name', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 566, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(49): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 13:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 13:57:01 --> Undefined index: file_name
+in APPPATH\Views\candidate-info.php on line 566.
+ 1 APPPATH\Views\candidate-info.php(566): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: file_name', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 566, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(49): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 14:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 14:00:53 --> Undefined variable: document
+in APPPATH\Views\candidate-info.php on line 571.
+ 1 APPPATH\Views\candidate-info.php(571): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 571, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(49): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 14:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 14:01:34 --> Undefined variable: document
+in APPPATH\Views\candidate-info.php on line 570.
+ 1 APPPATH\Views\candidate-info.php(570): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 570, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(49): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 14:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 14:03:39 --> Undefined variable: document
+in APPPATH\Views\candidate-info.php on line 571.
+ 1 APPPATH\Views\candidate-info.php(571): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 571, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(49): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 14:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 14:03:39 --> Undefined variable: document
+in APPPATH\Views\candidate-info.php on line 571.
+ 1 APPPATH\Views\candidate-info.php(571): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 571, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(49): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 14:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 14:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 14:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 14:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 14:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 14:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 14:49:13 --> Undefined index: file_name
+in APPPATH\Controllers\Controllercandinfo.php on line 18.
+ 1 APPPATH\Controllers\Controllercandinfo.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: file_name', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 18, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 14:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 14:56:11 --> Undefined index: file_name
+in APPPATH\Views\candidate-info.php on line 564.
+ 1 APPPATH\Views\candidate-info.php(564): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: file_name', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 564, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(52): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 14:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 14:56:26 --> Array to string conversion
+in APPPATH\Views\candidate-info.php on line 569.
+ 1 APPPATH\Views\candidate-info.php(569): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 569, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(52): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 14:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 15:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 15:29:02 --> Undefined variable: document
+in APPPATH\Views\candidate-info.php on line 575.
+ 1 APPPATH\Views\candidate-info.php(575): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 575, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(52): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 15:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 15:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 15:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 15:33:47 --> Illegal string offset 'file_name'
+in APPPATH\Views\candidate-info.php on line 578.
+ 1 APPPATH\Views\candidate-info.php(578): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'file_name\'', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 578, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(52): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 15:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 15:35:48 --> Undefined variable: document
+in APPPATH\Views\candidate-info.php on line 565.
+ 1 APPPATH\Views\candidate-info.php(565): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 565, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(62): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 15:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 15:36:19 --> Undefined index: documents
+in APPPATH\Controllers\Controllercandinfo.php on line 50.
+ 1 APPPATH\Controllers\Controllercandinfo.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: documents', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 15:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 15:42:37 --> Undefined variable: document
+in APPPATH\Views\candidate-info.php on line 565.
+ 1 APPPATH\Views\candidate-info.php(565): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 565, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(50): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 15:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 15:45:58 --> Undefined index: file_name
+in APPPATH\Controllers\Controllercandinfo.php on line 18.
+ 1 APPPATH\Controllers\Controllercandinfo.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: file_name', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 18, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 15:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 15:47:12 --> Undefined variable: document
+in APPPATH\Views\candidate-info.php on line 565.
+ 1 APPPATH\Views\candidate-info.php(565): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 565, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(50): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 15:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 15:47:46 --> Undefined variable: document
+in APPPATH\Views\candidate-info.php on line 565.
+ 1 APPPATH\Views\candidate-info.php(565): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 565, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(50): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 15:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 15:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 15:48:24 --> Undefined index: file_name
+in APPPATH\Controllers\Controllercandinfo.php on line 18.
+ 1 APPPATH\Controllers\Controllercandinfo.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: file_name', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 18, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 15:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 15:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 15:58:07 --> Undefined variable: file_name
+in APPPATH\Views\candidate-info.php on line 565.
+ 1 APPPATH\Views\candidate-info.php(565): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: file_name', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 565, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(48): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 15:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 15:58:45 --> Undefined variable: file_name
+in APPPATH\Views\candidate-info.php on line 566.
+ 1 APPPATH\Views\candidate-info.php(566): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: file_name', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 566, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(48): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 16:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 16:12:17 --> Undefined variable: doc
+in APPPATH\Views\candidate-info.php on line 567.
+ 1 APPPATH\Views\candidate-info.php(567): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: doc', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 567, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(48): view('candidate-info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 16:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 17:50:03 --> Undefined index: id012
+in APPPATH\Controllers\Controllercandinfo.php on line 17.
+ 1 APPPATH\Controllers\Controllercandinfo.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id012', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 17, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 17:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 17:50:30 --> Undefined index: id012
+in APPPATH\Controllers\Controllercandinfo.php on line 17.
+ 1 APPPATH\Controllers\Controllercandinfo.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id012', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 17, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->candinfo()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 17:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 17:50:39 --> Undefined variable: clients
+in APPPATH\Views\candidate-info.php on line 158.
+ 1 APPPATH\Views\candidate-info.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: clients', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php', 158, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-info.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-info', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(309): view('candidate-info')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->delDocument()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 17:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 17:51:50 --> Undefined index: id012
+in APPPATH\Controllers\Controllercandinfo.php on line 306.
+ 1 APPPATH\Controllers\Controllercandinfo.php(306): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id012', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 306, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->delDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 17:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 17:53:45 --> Undefined index: id012
+in APPPATH\Controllers\Controllercandinfo.php on line 306.
+ 1 APPPATH\Controllers\Controllercandinfo.php(306): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id012', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 306, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->delDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 17:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 17:54:05 --> Undefined index: id012
+in APPPATH\Controllers\Controllercandinfo.php on line 306.
+ 1 APPPATH\Controllers\Controllercandinfo.php(306): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id012', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 306, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->delDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 17:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 17:54:36 --> Undefined index: id012
+in APPPATH\Controllers\Controllercandinfo.php on line 306.
+ 1 APPPATH\Controllers\Controllercandinfo.php(306): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id012', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 306, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->delDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 17:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 17:54:43 --> Undefined index: id012
+in APPPATH\Controllers\Controllercandinfo.php on line 306.
+ 1 APPPATH\Controllers\Controllercandinfo.php(306): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id012', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 306, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->delDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 17:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 17:56:22 --> Undefined index: id012
+in APPPATH\Controllers\Controllercandinfo.php on line 306.
+ 1 APPPATH\Controllers\Controllercandinfo.php(306): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id012', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 306, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->delDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 17:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 17:56:51 --> Undefined index: id012
+in APPPATH\Controllers\Controllercandinfo.php on line 310.
+ 1 APPPATH\Controllers\Controllercandinfo.php(310): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id012', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 310, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->delDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 17:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 17:58:09 --> Undefined index: id012
+in APPPATH\Controllers\Controllercandinfo.php on line 310.
+ 1 APPPATH\Controllers\Controllercandinfo.php(310): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id012', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 310, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->delDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 17:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 17:58:21 --> Undefined index: id012
+in APPPATH\Controllers\Controllercandinfo.php on line 310.
+ 1 APPPATH\Controllers\Controllercandinfo.php(310): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id012', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 310, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->delDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 17:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 17:58:59 --> Undefined index: id012
+in APPPATH\Controllers\Controllercandinfo.php on line 310.
+ 1 APPPATH\Controllers\Controllercandinfo.php(310): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id012', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 310, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->delDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 17:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 17:59:03 --> Undefined index: id012
+in APPPATH\Controllers\Controllercandinfo.php on line 310.
+ 1 APPPATH\Controllers\Controllercandinfo.php(310): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id012', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 310, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->delDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 18:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 18:00:56 --> Undefined index: id012
+in APPPATH\Controllers\Controllercandinfo.php on line 310.
+ 1 APPPATH\Controllers\Controllercandinfo.php(310): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id012', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 310, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->delDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 18:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 18:01:16 --> Undefined index: id012
+in APPPATH\Controllers\Controllercandinfo.php on line 310.
+ 1 APPPATH\Controllers\Controllercandinfo.php(310): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id012', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 310, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->delDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 18:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 18:01:19 --> Undefined index: id012
+in APPPATH\Controllers\Controllercandinfo.php on line 310.
+ 1 APPPATH\Controllers\Controllercandinfo.php(310): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id012', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 310, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->delDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 18:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 18:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 18:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 18:01:26 --> Undefined index: id012
+in APPPATH\Controllers\Controllercandinfo.php on line 310.
+ 1 APPPATH\Controllers\Controllercandinfo.php(310): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id012', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 310, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->delDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 18:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 18:02:05 --> Undefined index: id012
+in APPPATH\Controllers\Controllercandinfo.php on line 310.
+ 1 APPPATH\Controllers\Controllercandinfo.php(310): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id012', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 310, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->delDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 18:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 18:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 18:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 18:02:18 --> Undefined index: id012
+in APPPATH\Controllers\Controllercandinfo.php on line 310.
+ 1 APPPATH\Controllers\Controllercandinfo.php(310): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id012', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 310, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->delDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 18:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 18:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 18:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

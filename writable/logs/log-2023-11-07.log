@@ -1,0 +1,9 @@
+CRITICAL - 2023-11-07 11:44:28 --> whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(827): CodeIgniter\Database\BaseBuilder->_whereIn('id012', '44', false, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->whereIn('id012', '44')
+ 3 APPPATH\Controllers\Controllercandinfo.php(357): CodeIgniter\Model->__call('whereIn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

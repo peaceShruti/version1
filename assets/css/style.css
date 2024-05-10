@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.text_color {
+    color: #eec11a;
+}
+
+.bg_color {
+    background-color: #eec11a !important;
+    color: #000;
+}
+
+/* ------------ Header ----------------- */
+
+.navbar {
+    border-bottom: 2px solid #eec11a !important;
+}
+
+.nav-item .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 0.8rem !important;
+    padding-left: 0.8rem !important;
+}
+
+.navbar-nav .active a,
+.navbar-nav .nav-link.show {
+    color: #eec11a;
+}
+
+.logo {
+    width: 240px;
+    height: 100px;
+}
+
+/* -------------- Home Page ------------ */
+
+#home, #about, #contact {
+    display: flex;
+    height: 81.8vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+/* #home .container {
+    width: 100%;
+    height: 100%;
+} */
+
+#home a {
+    text-decoration: none;
+}
+
+#home a:hover h5 {
+    color: #eec11a;
+}
+
+#home .card {
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#home .card .card_image {
+    margin-right: 20px;
+}
+
+/* ------------ Footer Page --------------- */
+
+#footer {
+    /* position: fixed; */
+    display: block;
+    /* bottom: 0; */
+    /* width: 100%; */
+    padding: 15px 0;
+}
+
+#footer p {
+    color: #000;
+}
+
+/* --------------------- About Us Page ------------- */
+
+.heading {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.img_sec {
+    width: 100%;
+    height: 100%;
+}
+
+.about_img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ------------------ Enquire Now Page ------------ */
+
+#enquire {
+    /* display: flex; */
+    /* height: 100vh; */
+    padding: 30px 0;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.enquire_form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* ------------------ Contact Us Page --------------- */
+
+#contact .card {
+    position: relative;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 50px 20px;
+    height: 200px;
+}
+
+#contact .card .card-body {
+    height: 25vh;
+}
+
+#contact a {
+    color: inherit;
+}
+
+.card_heading {
+    font-size: 26px;
+}
+
+.card_text {
+    font-size: 16px;
+}
+
+.card_img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ------------------ Invoice Page --------------- */
+
+#invoice {
+    display: flex;
+    /* height: 100%; */
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.invoice_form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* -------------- View Invoice ---------------- */
+
+.logo {
+    width: 150px;
+    height: 70px;
+    display: block;
+    margin: auto;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.main_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#view_invoice p {
+    margin: 0;
+}
+
+#view_invoice p span {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.date_no {
+    position: absolute;
+    right: 30px;
+}
+
+.signature_img {
+    width: 100px;
+    height: 50px;
+}
+
+.signature_img img {
+    width: 100%;
+    height: 100%;
+}
+
+@media print {
+    #print {
+        display: none;
+    }
+}
+
+
+/* --------------- Media Query For Mobile ------------ */
+
+@media only screen and (max-width: 768px) {
+    #home, #about, #enquire, #contact, #invoice {
+        display: flex;
+        height: 100%;
+    }
+
+    .heading {
+        font-size: 28px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    #contact .card {
+        padding: 30px 20px;
+        height: 230px;
+    }
+
+    .card_img {
+        width: 60px;
+        height: 60px;
+        position: relative;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+}

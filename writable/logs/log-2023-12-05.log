@@ -1,0 +1,78 @@
+CRITICAL - 2023-12-05 05:13:59 --> Undefined array key "status_for"
+in APPPATH\Controllers\Controllerusers.php on line 418.
+ 1 APPPATH\Controllers\Controllerusers.php(418): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status_for"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllerusers.php', 418)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-05 05:18:40 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Controllerusers.php on line 424.
+ 1 APPPATH\Controllers\Controllerusers.php(424): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllerusers.php', 424)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-05 05:20:17 --> Undefined variable $education
+in APPPATH\Controllers\Controllerusers.php on line 422.
+ 1 APPPATH\Controllers\Controllerusers.php(422): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $education', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllerusers.php', 422)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-05 05:29:17 --> Array to string conversion
+in APPPATH\Controllers\Controllerusers.php on line 424.
+ 1 APPPATH\Controllers\Controllerusers.php(424): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllerusers.php', 424)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-05 05:45:16 --> syntax error, unexpected variable "$filename"
+in APPPATH\Controllers\Controllerusers.php on line 449.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllerusers.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Controllerusers')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Controllerusers')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Controllerusers', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-05 05:45:31 --> Unclosed '{' on line 25
+in APPPATH\Controllers\Controllerusers.php on line 462.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllerusers.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Controllerusers')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Controllerusers')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Controllerusers', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-05 06:22:48 --> PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::getColumnDimensionByColumn(): Argument #1 ($columnIndex) must be of type int, string given, called in C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllerusers.php on line 399
+in FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 1514.
+ 1 APPPATH\Controllers\Controllerusers.php(399): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getColumnDimensionByColumn('A:P')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-05 06:23:45 --> PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::getColumnDimensionByColumn(): Argument #1 ($columnIndex) must be of type int, string given, called in C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllerusers.php on line 399
+in FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 1514.
+ 1 APPPATH\Controllers\Controllerusers.php(399): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getColumnDimensionByColumn('P')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-05 06:27:40 --> Undefined array key ":"
+in FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php on line 307.
+ 1 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(307): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ":"', 'C:\\xampp\\htdocs\\ReliableVerify\\vendor\\phpoffice\\phpspreadsheet\\src\\PhpSpreadsheet\\Cell\\Coordinate.php', 307)
+ 2 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1500): PhpOffice\PhpSpreadsheet\Cell\Coordinate::columnIndexFromString('A:P')
+ 3 APPPATH\Controllers\Controllerusers.php(399): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getColumnDimension('A:P')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->downloadExcel()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-05 07:08:28 --> Invalid cell coordinate 2P1
+in FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php on line 43.
+ 1 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Style\Style.php(229): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('2P1')
+ 2 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Style\Alignment.php(272): PhpOffice\PhpSpreadsheet\Style\Style->applyFromArray([...])
+ 3 APPPATH\Controllers\Controllerusers.php(523): PhpOffice\PhpSpreadsheet\Style\Alignment->setHorizontal('center')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->downloadExcel()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

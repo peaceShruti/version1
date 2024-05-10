@@ -1,0 +1,10 @@
+CRITICAL - 2023-12-19 09:51:44 --> Class "ZipArchive" not found
+in FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 63.
+ 1 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php(158): PhpOffice\PhpSpreadsheet\Shared\File::fileExists('zip://C:\\xampp\\tmp\\phpDDDF.tmp#_rels/.rels')
+ 2 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(427): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('C:\\xampp\\tmp\\phpDDDF.tmp', '_rels/.rels')
+ 3 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\BaseReader.php(182): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('C:\\xampp\\tmp\\phpDDDF.tmp')
+ 4 APPPATH\Controllers\Controllerclients.php(498): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('C:\\xampp\\tmp\\phpDDDF.tmp')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerclients->uploadCandidate()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerclients))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

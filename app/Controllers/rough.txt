@@ -1,0 +1,24 @@
+            $data2 = [
+
+            ];
+
+            $candieducationModel->insert($data2);
+
+            $data3 = [
+                'id' => $this->request->getPost('id'),
+                'id012' => $this->request->getPost('empcode019'),
+                'companyname001' => $this->request->getPost('companyname001'),
+                'designation002' => $this->request->getPost('designation002'),
+                'empid003' => $this->request->getPost('empid003'),
+                'joiningdate004' => $this->request->getPost('joiningdate004'),
+                'resigningdate005' => $this->request->getPost('resigningdate005'),
+                'grosssalary006' => $this->request->getPost('grosssalary006'),
+                'leavingreason007' => $this->request->getPost('leavingreason007'),
+                'supname008' => $this->request->getPost('supname008'),
+                'supcontact009'=> $this->request->getPost('supcontact009'),
+                'HRname010'=> $this->request->getPost('HRname010'),
+                'HRcontact011'=> $this->request->getPost('HRcontact011'),
+                'companyadd012'=> $this->request->getPost('companyadd012'),
+            ];
+
+            $candiemploymentModel->insert($data3);

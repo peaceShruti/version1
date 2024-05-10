@@ -1,0 +1,11 @@
+CRITICAL - 2024-05-07 08:16:43 --> Trying to access array offset on value of type null
+in APPPATH\Views\view-invoice.php on line 56.
+ 1 APPPATH\Views\view-invoice.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php', 56)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view-invoice', [], true)
+ 5 APPPATH\Controllers\Home.php(149): view('view-invoice', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->invoiceView()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,968 @@
+INFO - 2023-10-12 04:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:03:45 --> CSRF token verified.
+INFO - 2023-10-12 04:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:41:17 --> CSRF token verified.
+INFO - 2023-10-12 04:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:44:28 --> CSRF token verified.
+CRITICAL - 2023-10-12 04:44:28 --> syntax error, unexpected '}'
+in APPPATH\Controllers\Controllercandinfo.php on line 192.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Controllercandinfo')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Controllercandinfo')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Controllercandinfo')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Controllercandinfo', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 04:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:44:38 --> CSRF token verified.
+INFO - 2023-10-12 04:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:45:29 --> CSRF token verified.
+INFO - 2023-10-12 04:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 04:47:03 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 APPPATH\Filters\CustomCSRF.php(24): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(173): App\Filters\CustomCSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('reliableverify/candidate-info', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 04:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 04:49:08 --> Undefined variable: address
+in APPPATH\Views\candidate-address.php on line 173.
+ 1 APPPATH\Views\candidate-address.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: address', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-address.php', 173, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-address.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-address', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(63): view('candidate-address', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->Address()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 04:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 04:50:58 --> Undefined variable: address
+in APPPATH\Views\candidate-address.php on line 173.
+ 1 APPPATH\Views\candidate-address.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: address', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-address.php', 173, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-address.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-address', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(66): view('candidate-address', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->Address()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 04:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 04:51:17 --> Undefined variable: address
+in APPPATH\Views\candidate-address.php on line 173.
+ 1 APPPATH\Views\candidate-address.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: address', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-address.php', 173, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-address.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-address', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(66): view('candidate-address', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->Address()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 04:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 04:51:48 --> Undefined variable: address
+in APPPATH\Views\candidate-address.php on line 173.
+ 1 APPPATH\Views\candidate-address.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: address', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-address.php', 173, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-address.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-address', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(66): view('candidate-address', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->Address()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 04:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 04:51:48 --> Undefined variable: address
+in APPPATH\Views\candidate-address.php on line 173.
+ 1 APPPATH\Views\candidate-address.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: address', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-address.php', 173, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-address.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-address', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(66): view('candidate-address', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->Address()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 04:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 04:51:49 --> Undefined variable: address
+in APPPATH\Views\candidate-address.php on line 173.
+ 1 APPPATH\Views\candidate-address.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: address', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-address.php', 173, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-address.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-address', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(66): view('candidate-address', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->Address()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 04:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 04:51:52 --> Undefined variable: address
+in APPPATH\Views\candidate-address.php on line 173.
+ 1 APPPATH\Views\candidate-address.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: address', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-address.php', 173, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-address.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-address', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(66): view('candidate-address', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->Address()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 04:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 05:01:31 --> Undefined variable: address
+in APPPATH\Views\candidate-address.php on line 167.
+ 1 APPPATH\Views\candidate-address.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: address', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-address.php', 167, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-address.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-address', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(69): view('candidate-address', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->Address()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 05:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 05:01:39 --> Undefined variable: address
+in APPPATH\Views\candidate-address.php on line 167.
+ 1 APPPATH\Views\candidate-address.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: address', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-address.php', 167, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\candidate-address.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('candidate-address', [], true)
+ 5 APPPATH\Controllers\Controllercandinfo.php(69): view('candidate-address', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->Address()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 05:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:09:42 --> CSRF token verified.
+INFO - 2023-10-12 05:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:11:48 --> CSRF token verified.
+INFO - 2023-10-12 05:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:13:10 --> CSRF token verified.
+INFO - 2023-10-12 05:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:13:46 --> CSRF token verified.
+INFO - 2023-10-12 05:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:14:59 --> CSRF token verified.
+INFO - 2023-10-12 05:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:17:16 --> CSRF token verified.
+CRITICAL - 2023-10-12 05:17:16 --> print_r() expects parameter 2 to be bool, array given
+in APPPATH\Controllers\Controllercandinfo.php on line 195.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r() expects parameter 2 to be bool, array given', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllercandinfo.php', 195, [...])
+ 2 APPPATH\Controllers\Controllercandinfo.php(195): print_r('5', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 05:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:17:30 --> CSRF token verified.
+INFO - 2023-10-12 05:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:18:20 --> CSRF token verified.
+INFO - 2023-10-12 05:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:18:36 --> CSRF token verified.
+INFO - 2023-10-12 05:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:18:44 --> CSRF token verified.
+INFO - 2023-10-12 05:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:22:36 --> CSRF token verified.
+INFO - 2023-10-12 05:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:23:42 --> CSRF token verified.
+INFO - 2023-10-12 05:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:25:13 --> CSRF token verified.
+INFO - 2023-10-12 05:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:26:24 --> CSRF token verified.
+INFO - 2023-10-12 05:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:27:11 --> CSRF token verified.
+INFO - 2023-10-12 05:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:35:43 --> CSRF token verified.
+CRITICAL - 2023-10-12 05:35:43 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Controllercandinfo.php(217): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 05:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:36:10 --> CSRF token verified.
+CRITICAL - 2023-10-12 05:36:10 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Controllercandinfo.php(217): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 05:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:36:19 --> CSRF token verified.
+CRITICAL - 2023-10-12 05:36:19 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Controllercandinfo.php(217): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 05:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:37:03 --> CSRF token verified.
+CRITICAL - 2023-10-12 05:37:03 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Controllercandinfo.php(217): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 05:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:37:11 --> CSRF token verified.
+CRITICAL - 2023-10-12 05:37:11 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Controllercandinfo.php(217): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 05:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:40:26 --> CSRF token verified.
+CRITICAL - 2023-10-12 05:40:26 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1706.
+ 1 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray('5', 'update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], '5')
+ 3 APPPATH\Controllers\Controllercandinfo.php(217): CodeIgniter\Model->update([...], '5')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 05:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:40:35 --> CSRF token verified.
+CRITICAL - 2023-10-12 05:40:35 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1706.
+ 1 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray('5', 'update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], '5')
+ 3 APPPATH\Controllers\Controllercandinfo.php(217): CodeIgniter\Model->update([...], '5')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 05:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:41:03 --> CSRF token verified.
+INFO - 2023-10-12 05:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:41:08 --> CSRF token verified.
+INFO - 2023-10-12 05:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:41:47 --> CSRF token verified.
+INFO - 2023-10-12 05:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:45:07 --> CSRF token verified.
+INFO - 2023-10-12 05:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:45:38 --> CSRF token verified.
+INFO - 2023-10-12 05:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:46:16 --> CSRF token verified.
+INFO - 2023-10-12 05:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:47:23 --> CSRF token verified.
+CRITICAL - 2023-10-12 05:47:23 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Controllercandinfo.php(217): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 05:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:48:23 --> CSRF token verified.
+INFO - 2023-10-12 05:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:49:38 --> CSRF token verified.
+INFO - 2023-10-12 05:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:50:18 --> CSRF token verified.
+INFO - 2023-10-12 05:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:50:34 --> CSRF token verified.
+INFO - 2023-10-12 05:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:50:53 --> CSRF token verified.
+INFO - 2023-10-12 05:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:54:44 --> CSRF token verified.
+INFO - 2023-10-12 05:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:56:11 --> CSRF token verified.
+INFO - 2023-10-12 05:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:56:54 --> CSRF token verified.
+INFO - 2023-10-12 05:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:58:07 --> CSRF token verified.
+INFO - 2023-10-12 05:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:58:15 --> CSRF token verified.
+INFO - 2023-10-12 05:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:58:27 --> CSRF token verified.
+INFO - 2023-10-12 05:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 05:59:06 --> CSRF token verified.
+INFO - 2023-10-12 05:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:11:22 --> CSRF token verified.
+ERROR - 2023-10-12 06:11:22 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`reliableverify001`.`candiemployment`, CONSTRAINT `candiemployment_ibfk_1` FOREIGN KEY (`id012`) REFERENCES `clients011` (`id012`)) in C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `candiem...', 0)
+#1 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `candiem...')
+#2 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `candiem...')
+#3 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('UPDATE `candiem...', NULL, false)
+#4 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(2562): CodeIgniter\Database\BaseBuilder->batchExecute('_updateBatch', 100)
+#5 C:\xampp\htdocs\ReliableVerify\system\Model.php(414): CodeIgniter\Database\BaseBuilder->updateBatch(Array, 'empid003', 100)
+#6 C:\xampp\htdocs\ReliableVerify\system\BaseModel.php(1015): CodeIgniter\Model->doUpdateBatch(Array, 'empid003', 100, false)
+#7 C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllercandinfo.php(320): CodeIgniter\BaseModel->updateBatch(Array, 'empid003')
+#8 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+#9 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+#10 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-12 06:11:22 --> Cannot add or update a child row: a foreign key constraint fails (`reliableverify001`.`candiemployment`, CONSTRAINT `candiemployment_ibfk_1` FOREIGN KEY (`id012`) REFERENCES `clients011` (`id012`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `candiemployment`
+INNER JOIN (
+SELECT \'6655448899\' `HRcontact011`, \'HR Manager’s Name\' `HRname010`, \'Company Address\' `companyadd012`, \'Peace\' `companyname001`, \'Designation\' `designation002`, \'emp001\' `empid003`, \'100k\' `grosssalary006`, \'\' `id012`, \'2023-10-01\' `joiningdate004`, \'Reason For Leaving\' `leavingreason007`, \'2023-10-05\' `resigningdate005`, \'8855220011\' `supcontact009`, \'Supervisor’s Name\' `supname008` UNION ALL
+SELECT \'6655448800\' `HRcontact011`, \'HR Manager’s Name1\' `HRname010`, \'Company Address1\' `companyadd012`, \'Comp\' `companyname001`, \'Designation1\' `designation002`, \'emp002\' `empid003`, \'10k\' `grosssalary006`, \'\' `id012`, \'2023-10-01\' `joiningdate004`, \'Reason For Leaving1\' `leavingreason007`, \'2023-10-05\' `resigningdate005`, \'8855220000\' `supcontact009`, \'Supervisor’s Name1\' `supname008` UNION ALL
+SELECT \'\' `HRcontact011`, \'\' `HRname010`, \'fyffyh\' `companyadd012`, \'Comp 3\' `companyname001`, \'fghg\' `designation002`, \'fghf\' `empid003`, \'\' `grosssalary006`, \'\' `id012`, \'\' `joiningdate004`, \'\' `leavingreason007`, \'\' `resigningdate005`, \'\' `supcontact009`, \'\' `supname008`
+) `_u`
+ON `candiemployment`.`empid003` = `_u`.`empid003`
+SET
+`candiemployment`.`HRcontact011` = `_u`.`HRcontact011`,
+`candiemployment`.`HRname010` = `_u`.`HRname010`,
+`candiemployment`.`companyadd012` = `_u`.`companyadd012`,
+`candiemployment`.`companyname001` = `_u`.`companyname001`,
+`candiemployment`.`designation002` = `_u`.`designation002`,
+`candiemployment`.`grosssalary006` = `_u`.`grosssalary006`,
+`candiemployment`.`id012` = `_u`.`id012`,
+`candiemployment`.`joiningdate004` = `_u`.`joiningdate004`,
+`candiemployment`.`leavingreason007` = `_u`.`leavingreason007`,
+`candiemployment`.`resigningdate005` = `_u`.`resigningdate005`,
+`candiemployment`.`supcontact009` = `_u`.`supcontact009`,
+`candiemployment`.`supname008` = `_u`.`supname008`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `candiemployment`
+INNER JOIN (
+SELECT \'6655448899\' `HRcontact011`, \'HR Manager’s Name\' `HRname010`, \'Company Address\' `companyadd012`, \'Peace\' `companyname001`, \'Designation\' `designation002`, \'emp001\' `empid003`, \'100k\' `grosssalary006`, \'\' `id012`, \'2023-10-01\' `joiningdate004`, \'Reason For Leaving\' `leavingreason007`, \'2023-10-05\' `resigningdate005`, \'8855220011\' `supcontact009`, \'Supervisor’s Name\' `supname008` UNION ALL
+SELECT \'6655448800\' `HRcontact011`, \'HR Manager’s Name1\' `HRname010`, \'Company Address1\' `companyadd012`, \'Comp\' `companyname001`, \'Designation1\' `designation002`, \'emp002\' `empid003`, \'10k\' `grosssalary006`, \'\' `id012`, \'2023-10-01\' `joiningdate004`, \'Reason For Leaving1\' `leavingreason007`, \'2023-10-05\' `resigningdate005`, \'8855220000\' `supcontact009`, \'Supervisor’s Name1\' `supname008` UNION ALL
+SELECT \'\' `HRcontact011`, \'\' `HRname010`, \'fyffyh\' `companyadd012`, \'Comp 3\' `companyname001`, \'fghg\' `designation002`, \'fghf\' `empid003`, \'\' `grosssalary006`, \'\' `id012`, \'\' `joiningdate004`, \'\' `leavingreason007`, \'\' `resigningdate005`, \'\' `supcontact009`, \'\' `supname008`
+) `_u`
+ON `candiemployment`.`empid003` = `_u`.`empid003`
+SET
+`candiemployment`.`HRcontact011` = `_u`.`HRcontact011`,
+`candiemployment`.`HRname010` = `_u`.`HRname010`,
+`candiemployment`.`companyadd012` = `_u`.`companyadd012`,
+`candiemployment`.`companyname001` = `_u`.`companyname001`,
+`candiemployment`.`designation002` = `_u`.`designation002`,
+`candiemployment`.`grosssalary006` = `_u`.`grosssalary006`,
+`candiemployment`.`id012` = `_u`.`id012`,
+`candiemployment`.`joiningdate004` = `_u`.`joiningdate004`,
+`candiemployment`.`leavingreason007` = `_u`.`leavingreason007`,
+`candiemployment`.`resigningdate005` = `_u`.`resigningdate005`,
+`candiemployment`.`supcontact009` = `_u`.`supcontact009`,
+`candiemployment`.`supname008` = `_u`.`supname008`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `candiemployment`
+INNER JOIN (
+SELECT \'6655448899\' `HRcontact011`, \'HR Manager’s Name\' `HRname010`, \'Company Address\' `companyadd012`, \'Peace\' `companyname001`, \'Designation\' `designation002`, \'emp001\' `empid003`, \'100k\' `grosssalary006`, \'\' `id012`, \'2023-10-01\' `joiningdate004`, \'Reason For Leaving\' `leavingreason007`, \'2023-10-05\' `resigningdate005`, \'8855220011\' `supcontact009`, \'Supervisor’s Name\' `supname008` UNION ALL
+SELECT \'6655448800\' `HRcontact011`, \'HR Manager’s Name1\' `HRname010`, \'Company Address1\' `companyadd012`, \'Comp\' `companyname001`, \'Designation1\' `designation002`, \'emp002\' `empid003`, \'10k\' `grosssalary006`, \'\' `id012`, \'2023-10-01\' `joiningdate004`, \'Reason For Leaving1\' `leavingreason007`, \'2023-10-05\' `resigningdate005`, \'8855220000\' `supcontact009`, \'Supervisor’s Name1\' `supname008` UNION ALL
+SELECT \'\' `HRcontact011`, \'\' `HRname010`, \'fyffyh\' `companyadd012`, \'Comp 3\' `companyname001`, \'fghg\' `designation002`, \'fghf\' `empid003`, \'\' `grosssalary006`, \'\' `id012`, \'\' `joiningdate004`, \'\' `leavingreason007`, \'\' `resigningdate005`, \'\' `supcontact009`, \'\' `supname008`
+) `_u`
+ON `candiemployment`.`empid003` = `_u`.`empid003`
+SET
+`candiemployment`.`HRcontact011` = `_u`.`HRcontact011`,
+`candiemployment`.`HRname010` = `_u`.`HRname010`,
+`candiemployment`.`companyadd012` = `_u`.`companyadd012`,
+`candiemployment`.`companyname001` = `_u`.`companyname001`,
+`candiemployment`.`designation002` = `_u`.`designation002`,
+`candiemployment`.`grosssalary006` = `_u`.`grosssalary006`,
+`candiemployment`.`id012` = `_u`.`id012`,
+`candiemployment`.`joiningdate004` = `_u`.`joiningdate004`,
+`candiemployment`.`leavingreason007` = `_u`.`leavingreason007`,
+`candiemployment`.`resigningdate005` = `_u`.`resigningdate005`,
+`candiemployment`.`supcontact009` = `_u`.`supcontact009`,
+`candiemployment`.`supname008` = `_u`.`supname008`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('UPDATE `candiemployment`
+INNER JOIN (
+SELECT \'6655448899\' `HRcontact011`, \'HR Manager’s Name\' `HRname010`, \'Company Address\' `companyadd012`, \'Peace\' `companyname001`, \'Designation\' `designation002`, \'emp001\' `empid003`, \'100k\' `grosssalary006`, \'\' `id012`, \'2023-10-01\' `joiningdate004`, \'Reason For Leaving\' `leavingreason007`, \'2023-10-05\' `resigningdate005`, \'8855220011\' `supcontact009`, \'Supervisor’s Name\' `supname008` UNION ALL
+SELECT \'6655448800\' `HRcontact011`, \'HR Manager’s Name1\' `HRname010`, \'Company Address1\' `companyadd012`, \'Comp\' `companyname001`, \'Designation1\' `designation002`, \'emp002\' `empid003`, \'10k\' `grosssalary006`, \'\' `id012`, \'2023-10-01\' `joiningdate004`, \'Reason For Leaving1\' `leavingreason007`, \'2023-10-05\' `resigningdate005`, \'8855220000\' `supcontact009`, \'Supervisor’s Name1\' `supname008` UNION ALL
+SELECT \'\' `HRcontact011`, \'\' `HRname010`, \'fyffyh\' `companyadd012`, \'Comp 3\' `companyname001`, \'fghg\' `designation002`, \'fghf\' `empid003`, \'\' `grosssalary006`, \'\' `id012`, \'\' `joiningdate004`, \'\' `leavingreason007`, \'\' `resigningdate005`, \'\' `supcontact009`, \'\' `supname008`
+) `_u`
+ON `candiemployment`.`empid003` = `_u`.`empid003`
+SET
+`candiemployment`.`HRcontact011` = `_u`.`HRcontact011`,
+`candiemployment`.`HRname010` = `_u`.`HRname010`,
+`candiemployment`.`companyadd012` = `_u`.`companyadd012`,
+`candiemployment`.`companyname001` = `_u`.`companyname001`,
+`candiemployment`.`designation002` = `_u`.`designation002`,
+`candiemployment`.`grosssalary006` = `_u`.`grosssalary006`,
+`candiemployment`.`id012` = `_u`.`id012`,
+`candiemployment`.`joiningdate004` = `_u`.`joiningdate004`,
+`candiemployment`.`leavingreason007` = `_u`.`leavingreason007`,
+`candiemployment`.`resigningdate005` = `_u`.`resigningdate005`,
+`candiemployment`.`supcontact009` = `_u`.`supcontact009`,
+`candiemployment`.`supname008` = `_u`.`supname008`', null, false)
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2562): CodeIgniter\Database\BaseBuilder->batchExecute('_updateBatch', 100)
+ 6 SYSTEMPATH\Model.php(414): CodeIgniter\Database\BaseBuilder->updateBatch([...], 'empid003', 100)
+ 7 SYSTEMPATH\BaseModel.php(1015): CodeIgniter\Model->doUpdateBatch([...], 'empid003', 100, false)
+ 8 APPPATH\Controllers\Controllercandinfo.php(320): CodeIgniter\BaseModel->updateBatch([...], 'empid003')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 06:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:18:27 --> CSRF token verified.
+ERROR - 2023-10-12 06:18:27 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`reliableverify001`.`candiemployment`, CONSTRAINT `candiemployment_ibfk_1` FOREIGN KEY (`id012`) REFERENCES `clients011` (`id012`)) in C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', NULL, false)
+#4 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xampp\htdocs\ReliableVerify\system\Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch(Array, true, 100)
+#6 C:\xampp\htdocs\ReliableVerify\system\BaseModel.php(874): CodeIgniter\Model->doInsertBatch(Array, true, 100, false)
+#7 C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllercandinfo.php(321): CodeIgniter\BaseModel->insertBatch(Array, true)
+#8 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+#9 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+#10 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-12 06:18:27 --> Cannot add or update a child row: a foreign key constraint fails (`reliableverify001`.`candiemployment`, CONSTRAINT `candiemployment_ibfk_1` FOREIGN KEY (`id012`) REFERENCES `clients011` (`id012`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `candiemployment` (`HRcontact011`, `HRname010`, `companyadd012`, `companyname001`, `designation002`, `empid003`, `grosssalary006`, `id012`, `joiningdate004`, `leavingreason007`, `resigningdate005`, `supcontact009`, `supname008`)
+VALUES (\'6655448899\',\'HR Manager’s Name\',\'Company Address\',\'Peace\',\'Designation\',\'emp001\',\'100k\',\'\',\'2023-10-01\',\'Reason For Leaving\',\'2023-10-05\',\'8855220011\',\'Supervisor’s Name\'), (\'6655448800\',\'HR Manager’s Name1\',\'Company Address1\',\'Comp\',\'Designation1\',\'emp002\',\'10k\',\'\',\'2023-10-01\',\'Reason For Leaving1\',\'2023-10-05\',\'8855220000\',\'Supervisor’s Name1\'), (\'\',\'\',\'MLG\',\'Comp 3\',\'Designation3\',\'emp3000\',\'\',\'\',\'\',\'\',\'\',\'\',\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `candiemployment` (`HRcontact011`, `HRname010`, `companyadd012`, `companyname001`, `designation002`, `empid003`, `grosssalary006`, `id012`, `joiningdate004`, `leavingreason007`, `resigningdate005`, `supcontact009`, `supname008`)
+VALUES (\'6655448899\',\'HR Manager’s Name\',\'Company Address\',\'Peace\',\'Designation\',\'emp001\',\'100k\',\'\',\'2023-10-01\',\'Reason For Leaving\',\'2023-10-05\',\'8855220011\',\'Supervisor’s Name\'), (\'6655448800\',\'HR Manager’s Name1\',\'Company Address1\',\'Comp\',\'Designation1\',\'emp002\',\'10k\',\'\',\'2023-10-01\',\'Reason For Leaving1\',\'2023-10-05\',\'8855220000\',\'Supervisor’s Name1\'), (\'\',\'\',\'MLG\',\'Comp 3\',\'Designation3\',\'emp3000\',\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `candiemployment` (`HRcontact011`, `HRname010`, `companyadd012`, `companyname001`, `designation002`, `empid003`, `grosssalary006`, `id012`, `joiningdate004`, `leavingreason007`, `resigningdate005`, `supcontact009`, `supname008`)
+VALUES (\'6655448899\',\'HR Manager’s Name\',\'Company Address\',\'Peace\',\'Designation\',\'emp001\',\'100k\',\'\',\'2023-10-01\',\'Reason For Leaving\',\'2023-10-05\',\'8855220011\',\'Supervisor’s Name\'), (\'6655448800\',\'HR Manager’s Name1\',\'Company Address1\',\'Comp\',\'Designation1\',\'emp002\',\'10k\',\'\',\'2023-10-01\',\'Reason For Leaving1\',\'2023-10-05\',\'8855220000\',\'Supervisor’s Name1\'), (\'\',\'\',\'MLG\',\'Comp 3\',\'Designation3\',\'emp3000\',\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `candiemployment` (`HRcontact011`, `HRname010`, `companyadd012`, `companyname001`, `designation002`, `empid003`, `grosssalary006`, `id012`, `joiningdate004`, `leavingreason007`, `resigningdate005`, `supcontact009`, `supname008`)
+VALUES (\'6655448899\',\'HR Manager’s Name\',\'Company Address\',\'Peace\',\'Designation\',\'emp001\',\'100k\',\'\',\'2023-10-01\',\'Reason For Leaving\',\'2023-10-05\',\'8855220011\',\'Supervisor’s Name\'), (\'6655448800\',\'HR Manager’s Name1\',\'Company Address1\',\'Comp\',\'Designation1\',\'emp002\',\'10k\',\'\',\'2023-10-01\',\'Reason For Leaving1\',\'2023-10-05\',\'8855220000\',\'Supervisor’s Name1\'), (\'\',\'\',\'MLG\',\'Comp 3\',\'Designation3\',\'emp3000\',\'\',\'\',\'\',\'\',\'\',\'\',\'\')', null, false)
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 6 SYSTEMPATH\Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch([...], true, 100)
+ 7 SYSTEMPATH\BaseModel.php(874): CodeIgniter\Model->doInsertBatch([...], true, 100, false)
+ 8 APPPATH\Controllers\Controllercandinfo.php(321): CodeIgniter\BaseModel->insertBatch([...], true)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 06:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:19:40 --> CSRF token verified.
+INFO - 2023-10-12 06:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:20:36 --> CSRF token verified.
+ERROR - 2023-10-12 06:20:36 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`reliableverify001`.`candiemployment`, CONSTRAINT `candiemployment_ibfk_1` FOREIGN KEY (`id012`) REFERENCES `clients011` (`id012`)) in C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', NULL, false)
+#4 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xampp\htdocs\ReliableVerify\system\Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch(Array, true, 100)
+#6 C:\xampp\htdocs\ReliableVerify\system\BaseModel.php(874): CodeIgniter\Model->doInsertBatch(Array, true, 100, false)
+#7 C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllercandinfo.php(321): CodeIgniter\BaseModel->insertBatch(Array, true)
+#8 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+#9 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+#10 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-12 06:20:36 --> Cannot add or update a child row: a foreign key constraint fails (`reliableverify001`.`candiemployment`, CONSTRAINT `candiemployment_ibfk_1` FOREIGN KEY (`id012`) REFERENCES `clients011` (`id012`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `candiemployment` (`HRcontact011`, `HRname010`, `companyadd012`, `companyname001`, `designation002`, `empid003`, `grosssalary006`, `id012`, `joiningdate004`, `leavingreason007`, `resigningdate005`, `supcontact009`, `supname008`)
+VALUES (\'6655448899\',\'HR Manager’s Name\',\'Company Address\',\'Peace\',\'Designation\',\'emp001\',\'100k\',\'\',\'2023-10-01\',\'Reason For Leaving\',\'2023-10-12\',\'8855220011\',\'Supervisor’s Name\'), (\'6655448800\',\'HR Manager’s Name1\',\'Company Address 1\',\'Comp1\',\'Designation1\',\'emp002\',\'10k\',\'\',\'2023-10-01\',\'Reason For Leaving1\',\'2023-10-12\',\'8855220000\',\'Supervisor’s Name1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `candiemployment` (`HRcontact011`, `HRname010`, `companyadd012`, `companyname001`, `designation002`, `empid003`, `grosssalary006`, `id012`, `joiningdate004`, `leavingreason007`, `resigningdate005`, `supcontact009`, `supname008`)
+VALUES (\'6655448899\',\'HR Manager’s Name\',\'Company Address\',\'Peace\',\'Designation\',\'emp001\',\'100k\',\'\',\'2023-10-01\',\'Reason For Leaving\',\'2023-10-12\',\'8855220011\',\'Supervisor’s Name\'), (\'6655448800\',\'HR Manager’s Name1\',\'Company Address 1\',\'Comp1\',\'Designation1\',\'emp002\',\'10k\',\'\',\'2023-10-01\',\'Reason For Leaving1\',\'2023-10-12\',\'8855220000\',\'Supervisor’s Name1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `candiemployment` (`HRcontact011`, `HRname010`, `companyadd012`, `companyname001`, `designation002`, `empid003`, `grosssalary006`, `id012`, `joiningdate004`, `leavingreason007`, `resigningdate005`, `supcontact009`, `supname008`)
+VALUES (\'6655448899\',\'HR Manager’s Name\',\'Company Address\',\'Peace\',\'Designation\',\'emp001\',\'100k\',\'\',\'2023-10-01\',\'Reason For Leaving\',\'2023-10-12\',\'8855220011\',\'Supervisor’s Name\'), (\'6655448800\',\'HR Manager’s Name1\',\'Company Address 1\',\'Comp1\',\'Designation1\',\'emp002\',\'10k\',\'\',\'2023-10-01\',\'Reason For Leaving1\',\'2023-10-12\',\'8855220000\',\'Supervisor’s Name1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `candiemployment` (`HRcontact011`, `HRname010`, `companyadd012`, `companyname001`, `designation002`, `empid003`, `grosssalary006`, `id012`, `joiningdate004`, `leavingreason007`, `resigningdate005`, `supcontact009`, `supname008`)
+VALUES (\'6655448899\',\'HR Manager’s Name\',\'Company Address\',\'Peace\',\'Designation\',\'emp001\',\'100k\',\'\',\'2023-10-01\',\'Reason For Leaving\',\'2023-10-12\',\'8855220011\',\'Supervisor’s Name\'), (\'6655448800\',\'HR Manager’s Name1\',\'Company Address 1\',\'Comp1\',\'Designation1\',\'emp002\',\'10k\',\'\',\'2023-10-01\',\'Reason For Leaving1\',\'2023-10-12\',\'8855220000\',\'Supervisor’s Name1\')', null, false)
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 6 SYSTEMPATH\Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch([...], true, 100)
+ 7 SYSTEMPATH\BaseModel.php(874): CodeIgniter\Model->doInsertBatch([...], true, 100, false)
+ 8 APPPATH\Controllers\Controllercandinfo.php(321): CodeIgniter\BaseModel->insertBatch([...], true)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 06:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:23:45 --> CSRF token verified.
+INFO - 2023-10-12 06:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:32:37 --> CSRF token verified.
+INFO - 2023-10-12 06:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:33:43 --> CSRF token verified.
+ERROR - 2023-10-12 06:33:43 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`reliableverify001`.`candiemployment`, CONSTRAINT `candiemployment_ibfk_1` FOREIGN KEY (`id012`) REFERENCES `clients011` (`id012`)) in C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', NULL, false)
+#4 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xampp\htdocs\ReliableVerify\system\Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#6 C:\xampp\htdocs\ReliableVerify\system\BaseModel.php(874): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#7 C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllercandinfo.php(321): CodeIgniter\BaseModel->insertBatch(Array)
+#8 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+#9 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+#10 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-12 06:33:43 --> Cannot add or update a child row: a foreign key constraint fails (`reliableverify001`.`candiemployment`, CONSTRAINT `candiemployment_ibfk_1` FOREIGN KEY (`id012`) REFERENCES `clients011` (`id012`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `candiemployment` (`HRcontact011`, `HRname010`, `companyadd012`, `companyname001`, `designation002`, `empid003`, `grosssalary006`, `id012`, `joiningdate004`, `leavingreason007`, `resigningdate005`, `supcontact009`, `supname008`)
+VALUES (\'6655448899\',\'HR Manager’s Name\',\'Company Address\',\'Peace\',\'Designation\',\'emp00\',\'100k\',\'\',\'2023-10-01\',\'Reason For Leaving\',\'2023-10-12\',\'8855220011\',\'Supervisor’s Name\'), (\'6655448800\',\'HR Manager’s Name1\',\'Company Address 1\',\'Comp1\',\'Designation1\',\'emp001\',\'10k\',\'\',\'2023-10-01\',\'Reason For Leaving1\',\'2023-10-12\',\'8855220000\',\'Supervisor’s Name1\'), (\'6655448800\',\'HR Manager’s Name3\',\'Company Address \',\'Comp 3\',\'Designation 3\',\'emp003\',\'10k\',\'\',\'2023-10-01\',\'Reason For Leaving 3\',\'2023-10-12\',\'8855220011\',\'Supervisor’s Name3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `candiemployment` (`HRcontact011`, `HRname010`, `companyadd012`, `companyname001`, `designation002`, `empid003`, `grosssalary006`, `id012`, `joiningdate004`, `leavingreason007`, `resigningdate005`, `supcontact009`, `supname008`)
+VALUES (\'6655448899\',\'HR Manager’s Name\',\'Company Address\',\'Peace\',\'Designation\',\'emp00\',\'100k\',\'\',\'2023-10-01\',\'Reason For Leaving\',\'2023-10-12\',\'8855220011\',\'Supervisor’s Name\'), (\'6655448800\',\'HR Manager’s Name1\',\'Company Address 1\',\'Comp1\',\'Designation1\',\'emp001\',\'10k\',\'\',\'2023-10-01\',\'Reason For Leaving1\',\'2023-10-12\',\'8855220000\',\'Supervisor’s Name1\'), (\'6655448800\',\'HR Manager’s Name3\',\'Company Address \',\'Comp 3\',\'Designation 3\',\'emp003\',\'10k\',\'\',\'2023-10-01\',\'Reason For Leaving 3\',\'2023-10-12\',\'8855220011\',\'Supervisor’s Name3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `candiemployment` (`HRcontact011`, `HRname010`, `companyadd012`, `companyname001`, `designation002`, `empid003`, `grosssalary006`, `id012`, `joiningdate004`, `leavingreason007`, `resigningdate005`, `supcontact009`, `supname008`)
+VALUES (\'6655448899\',\'HR Manager’s Name\',\'Company Address\',\'Peace\',\'Designation\',\'emp00\',\'100k\',\'\',\'2023-10-01\',\'Reason For Leaving\',\'2023-10-12\',\'8855220011\',\'Supervisor’s Name\'), (\'6655448800\',\'HR Manager’s Name1\',\'Company Address 1\',\'Comp1\',\'Designation1\',\'emp001\',\'10k\',\'\',\'2023-10-01\',\'Reason For Leaving1\',\'2023-10-12\',\'8855220000\',\'Supervisor’s Name1\'), (\'6655448800\',\'HR Manager’s Name3\',\'Company Address \',\'Comp 3\',\'Designation 3\',\'emp003\',\'10k\',\'\',\'2023-10-01\',\'Reason For Leaving 3\',\'2023-10-12\',\'8855220011\',\'Supervisor’s Name3\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `candiemployment` (`HRcontact011`, `HRname010`, `companyadd012`, `companyname001`, `designation002`, `empid003`, `grosssalary006`, `id012`, `joiningdate004`, `leavingreason007`, `resigningdate005`, `supcontact009`, `supname008`)
+VALUES (\'6655448899\',\'HR Manager’s Name\',\'Company Address\',\'Peace\',\'Designation\',\'emp00\',\'100k\',\'\',\'2023-10-01\',\'Reason For Leaving\',\'2023-10-12\',\'8855220011\',\'Supervisor’s Name\'), (\'6655448800\',\'HR Manager’s Name1\',\'Company Address 1\',\'Comp1\',\'Designation1\',\'emp001\',\'10k\',\'\',\'2023-10-01\',\'Reason For Leaving1\',\'2023-10-12\',\'8855220000\',\'Supervisor’s Name1\'), (\'6655448800\',\'HR Manager’s Name3\',\'Company Address \',\'Comp 3\',\'Designation 3\',\'emp003\',\'10k\',\'\',\'2023-10-01\',\'Reason For Leaving 3\',\'2023-10-12\',\'8855220011\',\'Supervisor’s Name3\')', null, false)
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 6 SYSTEMPATH\Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch([...], null, 100)
+ 7 SYSTEMPATH\BaseModel.php(874): CodeIgniter\Model->doInsertBatch([...], null, 100, false)
+ 8 APPPATH\Controllers\Controllercandinfo.php(321): CodeIgniter\BaseModel->insertBatch([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllercandinfo->addcandinfo()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllercandinfo))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 06:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:48:37 --> CSRF token verified.
+INFO - 2023-10-12 06:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:49:21 --> CSRF token verified.
+INFO - 2023-10-12 06:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:49:37 --> CSRF token verified.
+INFO - 2023-10-12 06:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:50:42 --> CSRF token verified.
+INFO - 2023-10-12 06:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:56:32 --> CSRF token verified.
+INFO - 2023-10-12 06:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 06:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 07:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 07:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 07:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 07:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 07:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 09:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 09:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 09:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 09:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 09:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 09:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 09:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 09:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 09:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 09:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 09:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:16:30 --> CSRF token verified.
+INFO - 2023-10-12 10:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 10:26:13 --> Array to string conversion
+in APPPATH\Views\bgv.php on line 90.
+ 1 APPPATH\Views\bgv.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('bgv', [], true)
+ 5 APPPATH\Controllers\BgvController.php(38): view('bgv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BgvController->backgroundVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BgvController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 10:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:45:01 --> CSRF token verified.
+INFO - 2023-10-12 10:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:45:06 --> CSRF token verified.
+INFO - 2023-10-12 10:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:45:15 --> CSRF token verified.
+INFO - 2023-10-12 10:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 10:53:40 --> Array to string conversion
+in APPPATH\Views\bgv.php on line 326.
+ 1 APPPATH\Views\bgv.php(326): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php', 326, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('bgv', [], true)
+ 5 APPPATH\Controllers\BgvController.php(38): view('bgv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BgvController->backgroundVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BgvController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 10:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 10:53:52 --> Cannot use [] for reading
+in APPPATH\Views\bgv.php on line 326.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-12 10:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 10:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 11:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 11:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 11:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 11:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 11:13:03 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Views\bgv.php on line 324.
+ 1 APPPATH\Views\bgv.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php', 324, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('bgv', [], true)
+ 5 APPPATH\Controllers\BgvController.php(38): view('bgv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BgvController->backgroundVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BgvController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 11:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 11:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 11:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 11:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 11:17:16 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Views\bgv.php on line 337.
+ 1 APPPATH\Views\bgv.php(337): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php', 337, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('bgv', [], true)
+ 5 APPPATH\Controllers\BgvController.php(38): view('bgv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BgvController->backgroundVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BgvController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 11:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 12:01:04 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Views\bgv.php on line 337.
+ 1 APPPATH\Views\bgv.php(337): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php', 337, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('bgv', [], true)
+ 5 APPPATH\Controllers\BgvController.php(38): view('bgv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BgvController->backgroundVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BgvController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 12:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:02:56 --> CSRF token verified.
+INFO - 2023-10-12 12:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-12 12:04:26 --> Session data: Array
+(
+    [__ci_last_regenerate] => 1697112266
+)
+
+INFO - 2023-10-12 12:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-12 12:04:29 --> Session data: Array
+(
+    [__ci_last_regenerate] => 1697112269
+)
+
+INFO - 2023-10-12 12:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:04:42 --> CSRF token verified.
+INFO - 2023-10-12 12:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:04:55 --> CSRF token verified.
+INFO - 2023-10-12 12:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 12:07:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\bgv.php on line 90.
+ 1 APPPATH\Views\bgv.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('bgv', [], true)
+ 5 APPPATH\Controllers\BgvController.php(38): view('bgv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BgvController->backgroundVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BgvController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 12:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 12:07:10 --> Trying to access array offset on value of type null
+in APPPATH\Views\bgv.php on line 90.
+ 1 APPPATH\Views\bgv.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('bgv', [], true)
+ 5 APPPATH\Controllers\BgvController.php(38): view('bgv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BgvController->backgroundVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BgvController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 12:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 12:07:14 --> Trying to access array offset on value of type null
+in APPPATH\Views\bgv.php on line 90.
+ 1 APPPATH\Views\bgv.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('bgv', [], true)
+ 5 APPPATH\Controllers\BgvController.php(38): view('bgv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BgvController->backgroundVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BgvController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 12:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 12:07:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\bgv.php on line 90.
+ 1 APPPATH\Views\bgv.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('bgv', [], true)
+ 5 APPPATH\Controllers\BgvController.php(38): view('bgv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BgvController->backgroundVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BgvController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 12:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 12:08:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\bgv.php on line 90.
+ 1 APPPATH\Views\bgv.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('bgv', [], true)
+ 5 APPPATH\Controllers\BgvController.php(38): view('bgv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BgvController->backgroundVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BgvController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 12:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 12:08:10 --> Trying to access array offset on value of type null
+in APPPATH\Views\bgv.php on line 90.
+ 1 APPPATH\Views\bgv.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('bgv', [], true)
+ 5 APPPATH\Controllers\BgvController.php(38): view('bgv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BgvController->backgroundVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BgvController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 12:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 12:08:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\bgv.php on line 90.
+ 1 APPPATH\Views\bgv.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('bgv', [], true)
+ 5 APPPATH\Controllers\BgvController.php(38): view('bgv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BgvController->backgroundVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BgvController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 12:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 12:08:51 --> Trying to access array offset on value of type null
+in APPPATH\Views\bgv.php on line 184.
+ 1 APPPATH\Views\bgv.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php', 184, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('bgv', [], true)
+ 5 APPPATH\Controllers\BgvController.php(38): view('bgv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BgvController->backgroundVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BgvController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 12:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 12:14:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\bgv.php on line 90.
+ 1 APPPATH\Views\bgv.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\bgv.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('bgv', [], true)
+ 5 APPPATH\Controllers\BgvController.php(38): view('bgv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BgvController->backgroundVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BgvController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 12:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:22:26 --> CSRF token verified.
+INFO - 2023-10-12 12:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 13:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 17:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2023-10-12 17:47:14 --> Session data: Array
+(
+    [__ci_last_regenerate] => 1697132834
+)
+
+INFO - 2023-10-12 17:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 17:47:21 --> CSRF token verified.
+INFO - 2023-10-12 17:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 17:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 17:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 17:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 17:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 17:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 18:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 18:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 18:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 18:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

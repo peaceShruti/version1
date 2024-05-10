@@ -1,0 +1,383 @@
+CRITICAL - 2023-11-28 07:27:50 --> Undefined array key "id012"
+in APPPATH\Views\emp-dashboard.php on line 252.
+ 1 APPPATH\Views\emp-dashboard.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id012"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(122): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 07:28:07 --> Undefined array key "id012"
+in APPPATH\Views\emp-dashboard.php on line 252.
+ 1 APPPATH\Views\emp-dashboard.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id012"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(122): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 07:28:23 --> Undefined array key "id012"
+in APPPATH\Views\emp-dashboard.php on line 250.
+ 1 APPPATH\Views\emp-dashboard.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id012"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 250)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(122): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 07:28:37 --> Undefined array key "id012"
+in APPPATH\Views\emp-dashboard.php on line 252.
+ 1 APPPATH\Views\emp-dashboard.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id012"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 252)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(122): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 07:33:44 --> Undefined array key "id012"
+in APPPATH\Controllers\Controllerusers.php on line 124.
+ 1 APPPATH\Controllers\Controllerusers.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id012"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllerusers.php', 124)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 07:33:57 --> Undefined array key "id012"
+in APPPATH\Controllers\Controllerusers.php on line 124.
+ 1 APPPATH\Controllers\Controllerusers.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id012"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllerusers.php', 124)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 07:37:10 --> Undefined array key "id012"
+in APPPATH\Views\emp-dashboard.php on line 269.
+ 1 APPPATH\Views\emp-dashboard.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id012"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 269)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(126): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 07:38:09 --> Undefined array key "id012"
+in APPPATH\Views\emp-dashboard.php on line 269.
+ 1 APPPATH\Views\emp-dashboard.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id012"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 269)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(126): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 07:38:31 --> Undefined array key "id012"
+in APPPATH\Views\emp-dashboard.php on line 269.
+ 1 APPPATH\Views\emp-dashboard.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id012"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 269)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(126): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 07:38:37 --> Undefined array key "id012"
+in APPPATH\Views\emp-dashboard.php on line 269.
+ 1 APPPATH\Views\emp-dashboard.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id012"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 269)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(126): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 07:38:55 --> Undefined array key "id012"
+in APPPATH\Views\emp-dashboard.php on line 269.
+ 1 APPPATH\Views\emp-dashboard.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id012"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 269)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(126): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 07:42:48 --> Array to string conversion
+in APPPATH\Views\emp-dashboard.php on line 269.
+ 1 APPPATH\Views\emp-dashboard.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 269)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(126): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 07:43:03 --> Undefined array key "id012"
+in APPPATH\Views\emp-dashboard.php on line 269.
+ 1 APPPATH\Views\emp-dashboard.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id012"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 269)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(126): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 07:43:08 --> Cannot use [] for reading
+in APPPATH\Views\emp-dashboard.php on line 269.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-28 07:43:13 --> Array to string conversion
+in APPPATH\Views\emp-dashboard.php on line 269.
+ 1 APPPATH\Views\emp-dashboard.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 269)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(126): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 12:53:33 --> Undefined variable $db
+in APPPATH\Views\emp-dashboard.php on line 277.
+ 1 APPPATH\Views\emp-dashboard.php(277): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 277)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-28 12:54:06 --> mysqli_sql_exception: Column 'id012' in where clause is ambiguous in C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ReliableVerify\app\Views\emp-dashboard.php(281): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ReliableVerify\system\View\View.php(224): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ReliableVerify\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ReliableVerify\system\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', Array, true)
+#8 C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllerusers.php(123): view('emp-dashboard', Array)
+#9 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+#10 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+#11 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-11-28 12:54:06 --> Column 'id012' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `id012` = \'19\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `id012` = \'19\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `id012` = \'19\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `id012` = :id012:', [...], false)
+ 5 APPPATH\Views\emp-dashboard.php(281): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 9 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 12:55:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Views\emp-dashboard.php on line 282.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 12:57:12 --> Cannot use object of type stdClass as array
+in APPPATH\Views\emp-dashboard.php on line 288.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 12:57:37 --> Cannot use object of type stdClass as array
+in APPPATH\Views\emp-dashboard.php on line 290.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 4 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 13:03:58 --> Attempt to read property "status_for" on array
+in APPPATH\Views\emp-dashboard.php on line 287.
+ 1 APPPATH\Views\emp-dashboard.php(287): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "status_for" on array', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php', 287)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 5 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-28 14:06:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`status_for`, `bgv_status`.*
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_c...' at line 1 in C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `DISTINC...', 0)
+#1 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 C:\xampp\htdocs\ReliableVerify\app\Views\emp-dashboard.php(281): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ReliableVerify\system\View\View.php(224): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ReliableVerify\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ReliableVerify\system\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', Array, true)
+#8 C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllerusers.php(123): view('emp-dashboard', Array)
+#9 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+#10 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+#11 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-11-28 14:06:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`status_for`, `bgv_status`.*
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_c...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `DISTINCT` `bgv_status`.`status_for`, `bgv_status`.*
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `bgv_status`.`status_for`, `bgv_status`.*
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `bgv_status`.`status_for`, `bgv_status`.*
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `bgv_status`.`status_for`, `bgv_status`.*
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = :bgv_status.id012:', [...], false)
+ 5 APPPATH\Views\emp-dashboard.php(281): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 9 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-28 14:06:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `b...' at line 2 in C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `DISTINC...', 0)
+#1 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 C:\xampp\htdocs\ReliableVerify\app\Views\emp-dashboard.php(281): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ReliableVerify\system\View\View.php(224): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ReliableVerify\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ReliableVerify\system\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', Array, true)
+#8 C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllerusers.php(123): view('emp-dashboard', Array)
+#9 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+#10 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+#11 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-11-28 14:06:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `b...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `DISTINCT` *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` *
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = :bgv_status.id012:', [...], false)
+ 5 APPPATH\Views\emp-dashboard.php(281): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 9 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-28 14:08:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.*, `bgv_comments`.*
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`....' at line 1 in C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ReliableVerify\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `DISTINC...', 0)
+#1 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 C:\xampp\htdocs\ReliableVerify\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 C:\xampp\htdocs\ReliableVerify\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 C:\xampp\htdocs\ReliableVerify\app\Views\emp-dashboard.php(281): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ReliableVerify\system\View\View.php(224): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ReliableVerify\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ReliableVerify\system\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', Array, true)
+#8 C:\xampp\htdocs\ReliableVerify\app\Controllers\Controllerusers.php(123): view('emp-dashboard', Array)
+#9 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+#10 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+#11 C:\xampp\htdocs\ReliableVerify\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ReliableVerify\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-11-28 14:08:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.*, `bgv_comments`.*
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`....' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `DISTINCT` `bgv_status`.*, `bgv_comments`.*
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `bgv_status`.*, `bgv_comments`.*
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `bgv_status`.*, `bgv_comments`.*
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = \'19\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `bgv_status`.*, `bgv_comments`.*
+FROM `bgv_status`
+JOIN `bgv_comments` ON `bgv_comments`.`bgv_status_id`  = `bgv_status`.`id`
+WHERE `bgv_status`.`id012` = :bgv_status.id012:', [...], false)
+ 5 APPPATH\Views\emp-dashboard.php(281): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ReliableVerify\\app\\Views\\emp-dashboard.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('emp-dashboard', [], true)
+ 9 APPPATH\Controllers\Controllerusers.php(123): view('emp-dashboard', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerusers->empdash()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerusers))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

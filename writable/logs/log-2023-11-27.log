@@ -1,0 +1,2596 @@
+ERROR - 2023-11-27 05:40:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:40:31 --> 220 smtp.gmail.com ESMTP 11-20020a170902c14b00b001cf5422f23esm7297188plj.294 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK 11-20020a170902c14b00b001cf5422f23esm7297188plj.294 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. 11-20020a170902c14b00b001cf5422f23esm7297188plj.294 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. 11-20020a170902c14b00b001cf5422f23esm7297188plj.294 - gsmtp
+
+quit: 221 2.0.0 closing connection 11-20020a170902c14b00b001cf5422f23esm7297188plj.294 - gsmtp
+
+ERROR - 2023-11-27 05:40:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:40:34 --> 220 smtp.gmail.com ESMTP b7-20020a631b07000000b005bd3d6e270dsm6734409pgb.68 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK b7-20020a631b07000000b005bd3d6e270dsm6734409pgb.68 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. b7-20020a631b07000000b005bd3d6e270dsm6734409pgb.68 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. b7-20020a631b07000000b005bd3d6e270dsm6734409pgb.68 - gsmtp
+
+quit: 221 2.0.0 closing connection b7-20020a631b07000000b005bd3d6e270dsm6734409pgb.68 - gsmtp
+
+ERROR - 2023-11-27 05:40:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:40:36 --> 220 smtp.gmail.com ESMTP i10-20020a170902eb4a00b001cfc618d76csm1760339pli.70 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK i10-20020a170902eb4a00b001cfc618d76csm1760339pli.70 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. i10-20020a170902eb4a00b001cfc618d76csm1760339pli.70 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. i10-20020a170902eb4a00b001cfc618d76csm1760339pli.70 - gsmtp
+
+quit: 221 2.0.0 closing connection i10-20020a170902eb4a00b001cfc618d76csm1760339pli.70 - gsmtp
+
+ERROR - 2023-11-27 05:40:39 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:40:39 --> 220 smtp.gmail.com ESMTP fu11-20020a17090ad18b00b00283a0b0fd39sm6475947pjb.53 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK fu11-20020a17090ad18b00b00283a0b0fd39sm6475947pjb.53 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. fu11-20020a17090ad18b00b00283a0b0fd39sm6475947pjb.53 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. fu11-20020a17090ad18b00b00283a0b0fd39sm6475947pjb.53 - gsmtp
+
+quit: 221 2.0.0 closing connection fu11-20020a17090ad18b00b00283a0b0fd39sm6475947pjb.53 - gsmtp
+
+ERROR - 2023-11-27 05:40:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:40:42 --> 220 smtp.gmail.com ESMTP x5-20020a170902ec8500b001cfa718039bsm5195027plg.216 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK x5-20020a170902ec8500b001cfa718039bsm5195027plg.216 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. x5-20020a170902ec8500b001cfa718039bsm5195027plg.216 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. x5-20020a170902ec8500b001cfa718039bsm5195027plg.216 - gsmtp
+
+quit: 221 2.0.0 closing connection x5-20020a170902ec8500b001cfa718039bsm5195027plg.216 - gsmtp
+
+ERROR - 2023-11-27 05:40:45 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:40:45 --> 220 smtp.gmail.com ESMTP h12-20020a170902748c00b001c9d011581dsm7312379pll.164 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK h12-20020a170902748c00b001c9d011581dsm7312379pll.164 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. h12-20020a170902748c00b001c9d011581dsm7312379pll.164 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. h12-20020a170902748c00b001c9d011581dsm7312379pll.164 - gsmtp
+
+quit: 221 2.0.0 closing connection h12-20020a170902748c00b001c9d011581dsm7312379pll.164 - gsmtp
+
+ERROR - 2023-11-27 05:40:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:40:48 --> 220 smtp.gmail.com ESMTP q22-20020a056a0002b600b006c8721330fesm6482830pfs.74 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK q22-20020a056a0002b600b006c8721330fesm6482830pfs.74 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. q22-20020a056a0002b600b006c8721330fesm6482830pfs.74 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. q22-20020a056a0002b600b006c8721330fesm6482830pfs.74 - gsmtp
+
+quit: 221 2.0.0 closing connection q22-20020a056a0002b600b006c8721330fesm6482830pfs.74 - gsmtp
+
+ERROR - 2023-11-27 05:40:51 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:40:51 --> 220 smtp.gmail.com ESMTP e3-20020a170902744300b001cf5d324817sm5755039plt.188 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK e3-20020a170902744300b001cf5d324817sm5755039plt.188 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. e3-20020a170902744300b001cf5d324817sm5755039plt.188 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. e3-20020a170902744300b001cf5d324817sm5755039plt.188 - gsmtp
+
+quit: 221 2.0.0 closing connection e3-20020a170902744300b001cf5d324817sm5755039plt.188 - gsmtp
+
+ERROR - 2023-11-27 05:40:55 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:40:55 --> 220 smtp.gmail.com ESMTP b12-20020a170903228c00b001cfce833b6fsm1016390plh.204 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK b12-20020a170903228c00b001cfce833b6fsm1016390plh.204 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. b12-20020a170903228c00b001cfce833b6fsm1016390plh.204 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. b12-20020a170903228c00b001cfce833b6fsm1016390plh.204 - gsmtp
+
+quit: 221 2.0.0 closing connection b12-20020a170903228c00b001cfce833b6fsm1016390plh.204 - gsmtp
+
+ERROR - 2023-11-27 05:40:58 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:40:58 --> 220 smtp.gmail.com ESMTP hy13-20020a056a006a0d00b006cbb71186f7sm6479083pfb.29 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK hy13-20020a056a006a0d00b006cbb71186f7sm6479083pfb.29 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. hy13-20020a056a006a0d00b006cbb71186f7sm6479083pfb.29 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. hy13-20020a056a006a0d00b006cbb71186f7sm6479083pfb.29 - gsmtp
+
+quit: 221 2.0.0 closing connection hy13-20020a056a006a0d00b006cbb71186f7sm6479083pfb.29 - gsmtp
+
+ERROR - 2023-11-27 05:41:01 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:41:01 --> 220 smtp.gmail.com ESMTP u4-20020a17090282c400b001bb1f0605b2sm7298079plz.214 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK u4-20020a17090282c400b001bb1f0605b2sm7298079plz.214 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. u4-20020a17090282c400b001bb1f0605b2sm7298079plz.214 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. u4-20020a17090282c400b001bb1f0605b2sm7298079plz.214 - gsmtp
+
+quit: 221 2.0.0 closing connection u4-20020a17090282c400b001bb1f0605b2sm7298079plz.214 - gsmtp
+
+ERROR - 2023-11-27 05:41:04 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:41:04 --> 220 smtp.gmail.com ESMTP q26-20020a62e11a000000b006b2677d3685sm6402001pfh.207 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK q26-20020a62e11a000000b006b2677d3685sm6402001pfh.207 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. q26-20020a62e11a000000b006b2677d3685sm6402001pfh.207 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. q26-20020a62e11a000000b006b2677d3685sm6402001pfh.207 - gsmtp
+
+quit: 221 2.0.0 closing connection q26-20020a62e11a000000b006b2677d3685sm6402001pfh.207 - gsmtp
+
+ERROR - 2023-11-27 05:41:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:41:07 --> 220 smtp.gmail.com ESMTP b25-20020a631b59000000b005c21943d571sm7034927pgm.55 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK b25-20020a631b59000000b005c21943d571sm7034927pgm.55 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. b25-20020a631b59000000b005c21943d571sm7034927pgm.55 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. b25-20020a631b59000000b005c21943d571sm7034927pgm.55 - gsmtp
+
+quit: 221 2.0.0 closing connection b25-20020a631b59000000b005c21943d571sm7034927pgm.55 - gsmtp
+
+ERROR - 2023-11-27 05:41:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:41:11 --> 220 smtp.gmail.com ESMTP x18-20020a170902ec9200b001cf57467ad2sm2657501plg.91 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK x18-20020a170902ec9200b001cf57467ad2sm2657501plg.91 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. x18-20020a170902ec9200b001cf57467ad2sm2657501plg.91 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. x18-20020a170902ec9200b001cf57467ad2sm2657501plg.91 - gsmtp
+
+quit: 221 2.0.0 closing connection x18-20020a170902ec9200b001cf57467ad2sm2657501plg.91 - gsmtp
+
+ERROR - 2023-11-27 05:41:14 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:41:14 --> 220 smtp.gmail.com ESMTP b12-20020aa7810c000000b00690c52267easm6373781pfi.40 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK b12-20020aa7810c000000b00690c52267easm6373781pfi.40 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. b12-20020aa7810c000000b00690c52267easm6373781pfi.40 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. b12-20020aa7810c000000b00690c52267easm6373781pfi.40 - gsmtp
+
+quit: 221 2.0.0 closing connection b12-20020aa7810c000000b00690c52267easm6373781pfi.40 - gsmtp
+
+ERROR - 2023-11-27 05:41:19 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:41:19 --> 220 smtp.gmail.com ESMTP c14-20020a170902d48e00b001cf78afa914sm7306652plg.149 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK c14-20020a170902d48e00b001cf78afa914sm7306652plg.149 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. c14-20020a170902d48e00b001cf78afa914sm7306652plg.149 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. c14-20020a170902d48e00b001cf78afa914sm7306652plg.149 - gsmtp
+
+quit: 221 2.0.0 closing connection c14-20020a170902d48e00b001cf78afa914sm7306652plg.149 - gsmtp
+
+ERROR - 2023-11-27 05:41:22 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:41:22 --> 220 smtp.gmail.com ESMTP fd39-20020a056a002ea700b006cb7b0c2503sm6556603pfb.95 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK fd39-20020a056a002ea700b006cb7b0c2503sm6556603pfb.95 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. fd39-20020a056a002ea700b006cb7b0c2503sm6556603pfb.95 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. fd39-20020a056a002ea700b006cb7b0c2503sm6556603pfb.95 - gsmtp
+
+quit: 221 2.0.0 closing connection fd39-20020a056a002ea700b006cb7b0c2503sm6556603pfb.95 - gsmtp
+
+ERROR - 2023-11-27 05:41:27 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:41:27 --> 220 smtp.gmail.com ESMTP 18-20020aa79252000000b0068fbaea118esm6384542pfp.45 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK 18-20020aa79252000000b0068fbaea118esm6384542pfp.45 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. 18-20020aa79252000000b0068fbaea118esm6384542pfp.45 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. 18-20020aa79252000000b0068fbaea118esm6384542pfp.45 - gsmtp
+
+quit: 221 2.0.0 closing connection 18-20020aa79252000000b0068fbaea118esm6384542pfp.45 - gsmtp
+
+ERROR - 2023-11-27 05:41:32 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:41:32 --> 220 smtp.gmail.com ESMTP q28-20020a056a0002bc00b006cb9a9ea64dsm6449660pfs.220 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK q28-20020a056a0002bc00b006cb9a9ea64dsm6449660pfs.220 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. q28-20020a056a0002bc00b006cb9a9ea64dsm6449660pfs.220 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. q28-20020a056a0002bc00b006cb9a9ea64dsm6449660pfs.220 - gsmtp
+
+quit: 221 2.0.0 closing connection q28-20020a056a0002bc00b006cb9a9ea64dsm6449660pfs.220 - gsmtp
+
+ERROR - 2023-11-27 05:41:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:41:37 --> 220 smtp.gmail.com ESMTP s17-20020a170902989100b001cfd0ddc5d3sm755013plp.277 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK s17-20020a170902989100b001cfd0ddc5d3sm755013plp.277 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. s17-20020a170902989100b001cfd0ddc5d3sm755013plp.277 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. s17-20020a170902989100b001cfd0ddc5d3sm755013plp.277 - gsmtp
+
+quit: 221 2.0.0 closing connection s17-20020a170902989100b001cfd0ddc5d3sm755013plp.277 - gsmtp
+
+ERROR - 2023-11-27 05:41:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:41:40 --> 220 smtp.gmail.com ESMTP o1-20020a056a00214100b006cb6ba5fe72sm6474372pfk.122 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK o1-20020a056a00214100b006cb6ba5fe72sm6474372pfk.122 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. o1-20020a056a00214100b006cb6ba5fe72sm6474372pfk.122 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. o1-20020a056a00214100b006cb6ba5fe72sm6474372pfk.122 - gsmtp
+
+quit: 221 2.0.0 closing connection o1-20020a056a00214100b006cb6ba5fe72sm6474372pfk.122 - gsmtp
+
+ERROR - 2023-11-27 05:41:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:41:43 --> 220 smtp.gmail.com ESMTP u11-20020a170902e5cb00b001cfbd011ca9sm2861357plf.113 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK u11-20020a170902e5cb00b001cfbd011ca9sm2861357plf.113 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. u11-20020a170902e5cb00b001cfbd011ca9sm2861357plf.113 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. u11-20020a170902e5cb00b001cfbd011ca9sm2861357plf.113 - gsmtp
+
+quit: 221 2.0.0 closing connection u11-20020a170902e5cb00b001cfbd011ca9sm2861357plf.113 - gsmtp
+
+ERROR - 2023-11-27 05:41:46 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:41:46 --> 220 smtp.gmail.com ESMTP n13-20020a170902e54d00b001cfd077fab4sm783776plf.282 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK n13-20020a170902e54d00b001cfd077fab4sm783776plf.282 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. n13-20020a170902e54d00b001cfd077fab4sm783776plf.282 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. n13-20020a170902e54d00b001cfd077fab4sm783776plf.282 - gsmtp
+
+quit: 221 2.0.0 closing connection n13-20020a170902e54d00b001cfd077fab4sm783776plf.282 - gsmtp
+
+ERROR - 2023-11-27 05:44:12 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:44:12 --> 220 smtp.gmail.com ESMTP h12-20020a170902f7cc00b001cc311ef152sm6300470plw.286 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK h12-20020a170902f7cc00b001cc311ef152sm6300470plw.286 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. h12-20020a170902f7cc00b001cc311ef152sm6300470plw.286 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. h12-20020a170902f7cc00b001cc311ef152sm6300470plw.286 - gsmtp
+
+quit: 221 2.0.0 closing connection h12-20020a170902f7cc00b001cc311ef152sm6300470plw.286 - gsmtp
+
+ERROR - 2023-11-27 05:44:15 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:44:15 --> 220 smtp.gmail.com ESMTP g22-20020a1709029f9600b001ccb81e851bsm7318493plq.103 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK g22-20020a1709029f9600b001ccb81e851bsm7318493plq.103 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. g22-20020a1709029f9600b001ccb81e851bsm7318493plq.103 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. g22-20020a1709029f9600b001ccb81e851bsm7318493plq.103 - gsmtp
+
+quit: 221 2.0.0 closing connection g22-20020a1709029f9600b001ccb81e851bsm7318493plq.103 - gsmtp
+
+ERROR - 2023-11-27 05:44:18 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:44:18 --> 220 smtp.gmail.com ESMTP n2-20020a170902d2c200b001cfcf432de2sm879799plc.16 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK n2-20020a170902d2c200b001cfcf432de2sm879799plc.16 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. n2-20020a170902d2c200b001cfcf432de2sm879799plc.16 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. n2-20020a170902d2c200b001cfcf432de2sm879799plc.16 - gsmtp
+
+quit: 221 2.0.0 closing connection n2-20020a170902d2c200b001cfcf432de2sm879799plc.16 - gsmtp
+
+ERROR - 2023-11-27 05:44:21 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:44:21 --> 220 smtp.gmail.com ESMTP n17-20020a170902d2d100b001cfcfe3c1e5sm877798plc.173 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK n17-20020a170902d2d100b001cfcfe3c1e5sm877798plc.173 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. n17-20020a170902d2d100b001cfcfe3c1e5sm877798plc.173 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. n17-20020a170902d2d100b001cfcfe3c1e5sm877798plc.173 - gsmtp
+
+quit: 221 2.0.0 closing connection n17-20020a170902d2d100b001cfcfe3c1e5sm877798plc.173 - gsmtp
+
+ERROR - 2023-11-27 05:44:24 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:44:24 --> 220 smtp.gmail.com ESMTP 6-20020a170902ee4600b001c5b8087fe5sm7338492plo.94 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK 6-20020a170902ee4600b001c5b8087fe5sm7338492plo.94 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. 6-20020a170902ee4600b001c5b8087fe5sm7338492plo.94 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. 6-20020a170902ee4600b001c5b8087fe5sm7338492plo.94 - gsmtp
+
+quit: 221 2.0.0 closing connection 6-20020a170902ee4600b001c5b8087fe5sm7338492plo.94 - gsmtp
+
+ERROR - 2023-11-27 05:44:26 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:44:26 --> 220 smtp.gmail.com ESMTP jw10-20020a170903278a00b001cf8be14169sm7338570plb.20 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK jw10-20020a170903278a00b001cf8be14169sm7338570plb.20 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. jw10-20020a170903278a00b001cf8be14169sm7338570plb.20 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. jw10-20020a170903278a00b001cf8be14169sm7338570plb.20 - gsmtp
+
+quit: 221 2.0.0 closing connection jw10-20020a170903278a00b001cf8be14169sm7338570plb.20 - gsmtp
+
+ERROR - 2023-11-27 05:44:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:44:29 --> 220 smtp.gmail.com ESMTP j3-20020a17090a94c300b00285994cf711sm3991660pjw.33 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK j3-20020a17090a94c300b00285994cf711sm3991660pjw.33 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. j3-20020a17090a94c300b00285994cf711sm3991660pjw.33 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. j3-20020a17090a94c300b00285994cf711sm3991660pjw.33 - gsmtp
+
+quit: 221 2.0.0 closing connection j3-20020a17090a94c300b00285994cf711sm3991660pjw.33 - gsmtp
+
+ERROR - 2023-11-27 05:44:32 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:44:32 --> 220 smtp.gmail.com ESMTP c14-20020a170902d48e00b001cf78afa914sm7313271plg.149 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK c14-20020a170902d48e00b001cf78afa914sm7313271plg.149 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. c14-20020a170902d48e00b001cf78afa914sm7313271plg.149 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. c14-20020a170902d48e00b001cf78afa914sm7313271plg.149 - gsmtp
+
+quit: 221 2.0.0 closing connection c14-20020a170902d48e00b001cf78afa914sm7313271plg.149 - gsmtp
+
+ERROR - 2023-11-27 05:44:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:44:35 --> 220 smtp.gmail.com ESMTP i1-20020a170902c28100b001cf658f20ecsm7410296pld.96 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK i1-20020a170902c28100b001cf658f20ecsm7410296pld.96 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. i1-20020a170902c28100b001cf658f20ecsm7410296pld.96 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. i1-20020a170902c28100b001cf658f20ecsm7410296pld.96 - gsmtp
+
+quit: 221 2.0.0 closing connection i1-20020a170902c28100b001cf658f20ecsm7410296pld.96 - gsmtp
+
+ERROR - 2023-11-27 05:44:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:44:38 --> 220 smtp.gmail.com ESMTP pg4-20020a17090b1e0400b00285a2069a22sm3214577pjb.5 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK pg4-20020a17090b1e0400b00285a2069a22sm3214577pjb.5 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. pg4-20020a17090b1e0400b00285a2069a22sm3214577pjb.5 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. pg4-20020a17090b1e0400b00285a2069a22sm3214577pjb.5 - gsmtp
+
+quit: 221 2.0.0 closing connection pg4-20020a17090b1e0400b00285a2069a22sm3214577pjb.5 - gsmtp
+
+ERROR - 2023-11-27 05:44:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:44:41 --> 220 smtp.gmail.com ESMTP 1-20020a17090a000100b00274922d4b38sm7270664pja.27 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK 1-20020a17090a000100b00274922d4b38sm7270664pja.27 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. 1-20020a17090a000100b00274922d4b38sm7270664pja.27 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. 1-20020a17090a000100b00274922d4b38sm7270664pja.27 - gsmtp
+
+quit: 221 2.0.0 closing connection 1-20020a17090a000100b00274922d4b38sm7270664pja.27 - gsmtp
+
+ERROR - 2023-11-27 05:44:44 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:44:44 --> 220 smtp.gmail.com ESMTP e22-20020aa78256000000b006cbb44f9108sm6614896pfn.170 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK e22-20020aa78256000000b006cbb44f9108sm6614896pfn.170 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. e22-20020aa78256000000b006cbb44f9108sm6614896pfn.170 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. e22-20020aa78256000000b006cbb44f9108sm6614896pfn.170 - gsmtp
+
+quit: 221 2.0.0 closing connection e22-20020aa78256000000b006cbb44f9108sm6614896pfn.170 - gsmtp
+
+ERROR - 2023-11-27 05:44:51 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:44:51 --> 220 smtp.gmail.com ESMTP ix6-20020a170902f80600b001bdeedd8579sm7371062plb.252 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK ix6-20020a170902f80600b001bdeedd8579sm7371062plb.252 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. ix6-20020a170902f80600b001bdeedd8579sm7371062plb.252 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. ix6-20020a170902f80600b001bdeedd8579sm7371062plb.252 - gsmtp
+
+quit: 221 2.0.0 closing connection ix6-20020a170902f80600b001bdeedd8579sm7371062plb.252 - gsmtp
+
+ERROR - 2023-11-27 05:44:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:44:54 --> 220 smtp.gmail.com ESMTP y1-20020a62b501000000b006933b69f7afsm6349475pfe.42 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK y1-20020a62b501000000b006933b69f7afsm6349475pfe.42 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. y1-20020a62b501000000b006933b69f7afsm6349475pfe.42 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. y1-20020a62b501000000b006933b69f7afsm6349475pfe.42 - gsmtp
+
+quit: 221 2.0.0 closing connection y1-20020a62b501000000b006933b69f7afsm6349475pfe.42 - gsmtp
+
+ERROR - 2023-11-27 05:44:57 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:44:57 --> 220 smtp.gmail.com ESMTP o11-20020a17090ad24b00b002774d7e2fefsm6547015pjw.36 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK o11-20020a17090ad24b00b002774d7e2fefsm6547015pjw.36 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. o11-20020a17090ad24b00b002774d7e2fefsm6547015pjw.36 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. o11-20020a17090ad24b00b002774d7e2fefsm6547015pjw.36 - gsmtp
+
+quit: 221 2.0.0 closing connection o11-20020a17090ad24b00b002774d7e2fefsm6547015pjw.36 - gsmtp
+
+ERROR - 2023-11-27 05:45:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:45:00 --> 220 smtp.gmail.com ESMTP o1-20020a170902d4c100b001cfc2d3d05fsm2240934plg.139 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK o1-20020a170902d4c100b001cfc2d3d05fsm2240934plg.139 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. o1-20020a170902d4c100b001cfc2d3d05fsm2240934plg.139 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. o1-20020a170902d4c100b001cfc2d3d05fsm2240934plg.139 - gsmtp
+
+quit: 221 2.0.0 closing connection o1-20020a170902d4c100b001cfc2d3d05fsm2240934plg.139 - gsmtp
+
+ERROR - 2023-11-27 05:45:03 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:45:03 --> 220 smtp.gmail.com ESMTP s11-20020a17090ad48b00b00262eb0d141esm6609725pju.28 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK s11-20020a17090ad48b00b00262eb0d141esm6609725pju.28 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. s11-20020a17090ad48b00b00262eb0d141esm6609725pju.28 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. s11-20020a17090ad48b00b00262eb0d141esm6609725pju.28 - gsmtp
+
+quit: 221 2.0.0 closing connection s11-20020a17090ad48b00b00262eb0d141esm6609725pju.28 - gsmtp
+
+ERROR - 2023-11-27 05:45:06 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:45:06 --> 220 smtp.gmail.com ESMTP x8-20020a056a000bc800b006cb8cb7cd43sm6407428pfu.218 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK x8-20020a056a000bc800b006cb8cb7cd43sm6407428pfu.218 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. x8-20020a056a000bc800b006cb8cb7cd43sm6407428pfu.218 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. x8-20020a056a000bc800b006cb8cb7cd43sm6407428pfu.218 - gsmtp
+
+quit: 221 2.0.0 closing connection x8-20020a056a000bc800b006cb8cb7cd43sm6407428pfu.218 - gsmtp
+
+ERROR - 2023-11-27 05:45:09 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:45:09 --> 220 smtp.gmail.com ESMTP j1-20020a170902c08100b001ab39cd875csm6008530pld.133 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK j1-20020a170902c08100b001ab39cd875csm6008530pld.133 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. j1-20020a170902c08100b001ab39cd875csm6008530pld.133 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. j1-20020a170902c08100b001ab39cd875csm6008530pld.133 - gsmtp
+
+quit: 221 2.0.0 closing connection j1-20020a170902c08100b001ab39cd875csm6008530pld.133 - gsmtp
+
+ERROR - 2023-11-27 05:45:13 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:45:13 --> 220 smtp.gmail.com ESMTP ka35-20020a056a0093a300b0069343e474bcsm6391574pfb.104 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK ka35-20020a056a0093a300b0069343e474bcsm6391574pfb.104 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. ka35-20020a056a0093a300b0069343e474bcsm6391574pfb.104 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. ka35-20020a056a0093a300b0069343e474bcsm6391574pfb.104 - gsmtp
+
+quit: 221 2.0.0 closing connection ka35-20020a056a0093a300b0069343e474bcsm6391574pfb.104 - gsmtp
+
+ERROR - 2023-11-27 05:45:16 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:45:16 --> 220 smtp.gmail.com ESMTP b21-20020a170902ed1500b001cfa4178981sm5440540pld.309 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK b21-20020a170902ed1500b001cfa4178981sm5440540pld.309 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. b21-20020a170902ed1500b001cfa4178981sm5440540pld.309 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. b21-20020a170902ed1500b001cfa4178981sm5440540pld.309 - gsmtp
+
+quit: 221 2.0.0 closing connection b21-20020a170902ed1500b001cfa4178981sm5440540pld.309 - gsmtp
+
+ERROR - 2023-11-27 05:45:19 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:45:19 --> 220 smtp.gmail.com ESMTP k7-20020aa792c7000000b006cbb58301basm6585501pfa.19 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK k7-20020aa792c7000000b006cbb58301basm6585501pfa.19 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. k7-20020aa792c7000000b006cbb58301basm6585501pfa.19 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. k7-20020aa792c7000000b006cbb58301basm6585501pfa.19 - gsmtp
+
+quit: 221 2.0.0 closing connection k7-20020aa792c7000000b006cbb58301basm6585501pfa.19 - gsmtp
+
+ERROR - 2023-11-27 05:45:21 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:45:21 --> 220 smtp.gmail.com ESMTP 4-20020a17090a1a0400b0027b168cb011sm7210617pjk.56 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK 4-20020a17090a1a0400b0027b168cb011sm7210617pjk.56 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. 4-20020a17090a1a0400b0027b168cb011sm7210617pjk.56 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. 4-20020a17090a1a0400b0027b168cb011sm7210617pjk.56 - gsmtp
+
+quit: 221 2.0.0 closing connection 4-20020a17090a1a0400b0027b168cb011sm7210617pjk.56 - gsmtp
+
+ERROR - 2023-11-27 05:45:24 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:45:24 --> 220 smtp.gmail.com ESMTP t14-20020a1709027fce00b001cf594f71f3sm7536854plb.157 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK t14-20020a1709027fce00b001cf594f71f3sm7536854plb.157 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. t14-20020a1709027fce00b001cf594f71f3sm7536854plb.157 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. t14-20020a1709027fce00b001cf594f71f3sm7536854plb.157 - gsmtp
+
+quit: 221 2.0.0 closing connection t14-20020a1709027fce00b001cf594f71f3sm7536854plb.157 - gsmtp
+
+ERROR - 2023-11-27 05:45:27 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:45:27 --> 220 smtp.gmail.com ESMTP w15-20020a170902e88f00b001c0cb2aa2easm5587147plg.121 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK w15-20020a170902e88f00b001c0cb2aa2easm5587147plg.121 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. w15-20020a170902e88f00b001c0cb2aa2easm5587147plg.121 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. w15-20020a170902e88f00b001c0cb2aa2easm5587147plg.121 - gsmtp
+
+quit: 221 2.0.0 closing connection w15-20020a170902e88f00b001c0cb2aa2easm5587147plg.121 - gsmtp
+
+ERROR - 2023-11-27 05:45:30 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:45:30 --> 220 smtp.gmail.com ESMTP x71-20020a63864a000000b0057412d84d25sm7002220pgd.4 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK x71-20020a63864a000000b0057412d84d25sm7002220pgd.4 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. x71-20020a63864a000000b0057412d84d25sm7002220pgd.4 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. x71-20020a63864a000000b0057412d84d25sm7002220pgd.4 - gsmtp
+
+quit: 221 2.0.0 closing connection x71-20020a63864a000000b0057412d84d25sm7002220pgd.4 - gsmtp
+
+ERROR - 2023-11-27 05:45:33 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:45:33 --> 220 smtp.gmail.com ESMTP 18-20020aa79252000000b006cbb56d4e58sm6430553pfp.65 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK 18-20020aa79252000000b006cbb56d4e58sm6430553pfp.65 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. 18-20020aa79252000000b006cbb56d4e58sm6430553pfp.65 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. 18-20020aa79252000000b006cbb56d4e58sm6430553pfp.65 - gsmtp
+
+quit: 221 2.0.0 closing connection 18-20020aa79252000000b006cbb56d4e58sm6430553pfp.65 - gsmtp
+
+ERROR - 2023-11-27 05:45:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:45:36 --> 220 smtp.gmail.com ESMTP c8-20020a62e808000000b006c341cf08f9sm6600057pfi.140 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK c8-20020a62e808000000b006c341cf08f9sm6600057pfi.140 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. c8-20020a62e808000000b006c341cf08f9sm6600057pfi.140 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. c8-20020a62e808000000b006c341cf08f9sm6600057pfi.140 - gsmtp
+
+quit: 221 2.0.0 closing connection c8-20020a62e808000000b006c341cf08f9sm6600057pfi.140 - gsmtp
+
+ERROR - 2023-11-27 05:45:39 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:45:39 --> 220 smtp.gmail.com ESMTP d3-20020a170903230300b001cfc9c926c5sm1474032plh.4 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK d3-20020a170903230300b001cfc9c926c5sm1474032plh.4 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. d3-20020a170903230300b001cfc9c926c5sm1474032plh.4 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. d3-20020a170903230300b001cfc9c926c5sm1474032plh.4 - gsmtp
+
+quit: 221 2.0.0 closing connection d3-20020a170903230300b001cfc9c926c5sm1474032plh.4 - gsmtp
+
+ERROR - 2023-11-27 05:45:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:45:42 --> 220 smtp.gmail.com ESMTP y7-20020a1709029b8700b001cf7c07be50sm7355743plp.58 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK y7-20020a1709029b8700b001cf7c07be50sm7355743plp.58 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. y7-20020a1709029b8700b001cf7c07be50sm7355743plp.58 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. y7-20020a1709029b8700b001cf7c07be50sm7355743plp.58 - gsmtp
+
+quit: 221 2.0.0 closing connection y7-20020a1709029b8700b001cf7c07be50sm7355743plp.58 - gsmtp
+
+ERROR - 2023-11-27 05:47:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:47:37 --> 220 smtp.gmail.com ESMTP fv22-20020a17090b0e9600b00268b439a0cbsm6509572pjb.23 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK fv22-20020a17090b0e9600b00268b439a0cbsm6509572pjb.23 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. fv22-20020a17090b0e9600b00268b439a0cbsm6509572pjb.23 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. fv22-20020a17090b0e9600b00268b439a0cbsm6509572pjb.23 - gsmtp
+
+quit: 221 2.0.0 closing connection fv22-20020a17090b0e9600b00268b439a0cbsm6509572pjb.23 - gsmtp
+
+ERROR - 2023-11-27 05:47:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:47:40 --> 220 smtp.gmail.com ESMTP fj14-20020a056a003a0e00b006cbef269712sm5648445pfb.9 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK fj14-20020a056a003a0e00b006cbef269712sm5648445pfb.9 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. fj14-20020a056a003a0e00b006cbef269712sm5648445pfb.9 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. fj14-20020a056a003a0e00b006cbef269712sm5648445pfb.9 - gsmtp
+
+quit: 221 2.0.0 closing connection fj14-20020a056a003a0e00b006cbef269712sm5648445pfb.9 - gsmtp
+
+ERROR - 2023-11-27 05:47:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:47:43 --> 220 smtp.gmail.com ESMTP k2-20020a17090a590200b0028571e2a759sm5882692pji.48 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK k2-20020a17090a590200b0028571e2a759sm5882692pji.48 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. k2-20020a17090a590200b0028571e2a759sm5882692pji.48 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. k2-20020a17090a590200b0028571e2a759sm5882692pji.48 - gsmtp
+
+quit: 221 2.0.0 closing connection k2-20020a17090a590200b0028571e2a759sm5882692pji.48 - gsmtp
+
+ERROR - 2023-11-27 05:47:46 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:47:46 --> 220 smtp.gmail.com ESMTP b11-20020a170902d50b00b001c5fe217fb9sm7329096plg.267 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK b11-20020a170902d50b00b001c5fe217fb9sm7329096plg.267 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. b11-20020a170902d50b00b001c5fe217fb9sm7329096plg.267 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. b11-20020a170902d50b00b001c5fe217fb9sm7329096plg.267 - gsmtp
+
+quit: 221 2.0.0 closing connection b11-20020a170902d50b00b001c5fe217fb9sm7329096plg.267 - gsmtp
+
+ERROR - 2023-11-27 05:47:49 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:47:49 --> 220 smtp.gmail.com ESMTP p5-20020a170902e74500b001cfd2cb1907sm660839plf.206 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK p5-20020a170902e74500b001cfd2cb1907sm660839plf.206 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. p5-20020a170902e74500b001cfd2cb1907sm660839plf.206 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. p5-20020a170902e74500b001cfd2cb1907sm660839plf.206 - gsmtp
+
+quit: 221 2.0.0 closing connection p5-20020a170902e74500b001cfd2cb1907sm660839plf.206 - gsmtp
+
+ERROR - 2023-11-27 05:47:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:47:53 --> 220 smtp.gmail.com ESMTP az22-20020a17090b029600b00280a2275e4bsm6924494pjb.27 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK az22-20020a17090b029600b00280a2275e4bsm6924494pjb.27 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. az22-20020a17090b029600b00280a2275e4bsm6924494pjb.27 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. az22-20020a17090b029600b00280a2275e4bsm6924494pjb.27 - gsmtp
+
+quit: 221 2.0.0 closing connection az22-20020a17090b029600b00280a2275e4bsm6924494pjb.27 - gsmtp
+
+ERROR - 2023-11-27 05:47:57 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:47:57 --> 220 smtp.gmail.com ESMTP d25-20020aa78159000000b006cb4fa1174dsm6414100pfn.124 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK d25-20020aa78159000000b006cb4fa1174dsm6414100pfn.124 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. d25-20020aa78159000000b006cb4fa1174dsm6414100pfn.124 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. d25-20020aa78159000000b006cb4fa1174dsm6414100pfn.124 - gsmtp
+
+quit: 221 2.0.0 closing connection d25-20020aa78159000000b006cb4fa1174dsm6414100pfn.124 - gsmtp
+
+ERROR - 2023-11-27 05:48:02 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:48:02 --> 220 smtp.gmail.com ESMTP d10-20020aa7868a000000b006cb8c92a8acsm6399921pfo.113 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK d10-20020aa7868a000000b006cb8c92a8acsm6399921pfo.113 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. d10-20020aa7868a000000b006cb8c92a8acsm6399921pfo.113 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. d10-20020aa7868a000000b006cb8c92a8acsm6399921pfo.113 - gsmtp
+
+quit: 221 2.0.0 closing connection d10-20020aa7868a000000b006cb8c92a8acsm6399921pfo.113 - gsmtp
+
+ERROR - 2023-11-27 05:48:06 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:48:06 --> 220 smtp.gmail.com ESMTP qa9-20020a17090b4fc900b00274b035246esm7717062pjb.1 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK qa9-20020a17090b4fc900b00274b035246esm7717062pjb.1 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. qa9-20020a17090b4fc900b00274b035246esm7717062pjb.1 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. qa9-20020a17090b4fc900b00274b035246esm7717062pjb.1 - gsmtp
+
+quit: 221 2.0.0 closing connection qa9-20020a17090b4fc900b00274b035246esm7717062pjb.1 - gsmtp
+
+ERROR - 2023-11-27 05:48:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:48:10 --> 220 smtp.gmail.com ESMTP ei44-20020a056a0080ec00b006cb997a3210sm6508468pfb.193 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK ei44-20020a056a0080ec00b006cb997a3210sm6508468pfb.193 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. ei44-20020a056a0080ec00b006cb997a3210sm6508468pfb.193 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. ei44-20020a056a0080ec00b006cb997a3210sm6508468pfb.193 - gsmtp
+
+quit: 221 2.0.0 closing connection ei44-20020a056a0080ec00b006cb997a3210sm6508468pfb.193 - gsmtp
+
+ERROR - 2023-11-27 05:48:13 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:48:13 --> 220 smtp.gmail.com ESMTP jl23-20020a170903135700b001ca4c20003dsm7294636plb.69 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK jl23-20020a170903135700b001ca4c20003dsm7294636plb.69 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. jl23-20020a170903135700b001ca4c20003dsm7294636plb.69 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. jl23-20020a170903135700b001ca4c20003dsm7294636plb.69 - gsmtp
+
+quit: 221 2.0.0 closing connection jl23-20020a170903135700b001ca4c20003dsm7294636plb.69 - gsmtp
+
+ERROR - 2023-11-27 05:48:18 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:48:18 --> 220 smtp.gmail.com ESMTP w23-20020a170902a71700b001cfbd3f38dcsm2792557plq.225 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK w23-20020a170902a71700b001cfbd3f38dcsm2792557plq.225 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. w23-20020a170902a71700b001cfbd3f38dcsm2792557plq.225 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. w23-20020a170902a71700b001cfbd3f38dcsm2792557plq.225 - gsmtp
+
+quit: 221 2.0.0 closing connection w23-20020a170902a71700b001cfbd3f38dcsm2792557plq.225 - gsmtp
+
+ERROR - 2023-11-27 05:48:22 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:48:22 --> 220 smtp.gmail.com ESMTP jd1-20020a170903260100b001cfa91a0570sm5005965plb.155 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK jd1-20020a170903260100b001cfa91a0570sm5005965plb.155 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. jd1-20020a170903260100b001cfa91a0570sm5005965plb.155 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. jd1-20020a170903260100b001cfa91a0570sm5005965plb.155 - gsmtp
+
+quit: 221 2.0.0 closing connection jd1-20020a170903260100b001cfa91a0570sm5005965plb.155 - gsmtp
+
+ERROR - 2023-11-27 05:48:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:48:25 --> 220 smtp.gmail.com ESMTP fv6-20020a17090b0e8600b002805740d668sm6880284pjb.4 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK fv6-20020a17090b0e8600b002805740d668sm6880284pjb.4 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. fv6-20020a17090b0e8600b002805740d668sm6880284pjb.4 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. fv6-20020a17090b0e8600b002805740d668sm6880284pjb.4 - gsmtp
+
+quit: 221 2.0.0 closing connection fv6-20020a17090b0e8600b002805740d668sm6880284pjb.4 - gsmtp
+
+ERROR - 2023-11-27 05:48:28 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:48:28 --> 220 smtp.gmail.com ESMTP c16-20020aa78c10000000b006905f6bfc37sm6438664pfd.31 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK c16-20020aa78c10000000b006905f6bfc37sm6438664pfd.31 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. c16-20020aa78c10000000b006905f6bfc37sm6438664pfd.31 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. c16-20020aa78c10000000b006905f6bfc37sm6438664pfd.31 - gsmtp
+
+quit: 221 2.0.0 closing connection c16-20020aa78c10000000b006905f6bfc37sm6438664pfd.31 - gsmtp
+
+ERROR - 2023-11-27 05:48:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:48:31 --> 220 smtp.gmail.com ESMTP d4-20020a170903230400b001cfd24c7b5csm714266plh.182 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK d4-20020a170903230400b001cfd24c7b5csm714266plh.182 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. d4-20020a170903230400b001cfd24c7b5csm714266plh.182 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. d4-20020a170903230400b001cfd24c7b5csm714266plh.182 - gsmtp
+
+quit: 221 2.0.0 closing connection d4-20020a170903230400b001cfd24c7b5csm714266plh.182 - gsmtp
+
+ERROR - 2023-11-27 05:48:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:48:34 --> 220 smtp.gmail.com ESMTP i1-20020a170902c28100b001c739768214sm7407617pld.92 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK i1-20020a170902c28100b001c739768214sm7407617pld.92 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. i1-20020a170902c28100b001c739768214sm7407617pld.92 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. i1-20020a170902c28100b001c739768214sm7407617pld.92 - gsmtp
+
+quit: 221 2.0.0 closing connection i1-20020a170902c28100b001c739768214sm7407617pld.92 - gsmtp
+
+ERROR - 2023-11-27 05:48:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:48:37 --> 220 smtp.gmail.com ESMTP h33-20020a631221000000b00578afd8e012sm6845576pgl.92 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK h33-20020a631221000000b00578afd8e012sm6845576pgl.92 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. h33-20020a631221000000b00578afd8e012sm6845576pgl.92 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. h33-20020a631221000000b00578afd8e012sm6845576pgl.92 - gsmtp
+
+quit: 221 2.0.0 closing connection h33-20020a631221000000b00578afd8e012sm6845576pgl.92 - gsmtp
+
+ERROR - 2023-11-27 05:48:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:48:40 --> 220 smtp.gmail.com ESMTP h12-20020a65518c000000b005c21c23180bsm5958902pgq.76 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK h12-20020a65518c000000b005c21c23180bsm5958902pgq.76 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. h12-20020a65518c000000b005c21c23180bsm5958902pgq.76 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. h12-20020a65518c000000b005c21c23180bsm5958902pgq.76 - gsmtp
+
+quit: 221 2.0.0 closing connection h12-20020a65518c000000b005c21c23180bsm5958902pgq.76 - gsmtp
+
+ERROR - 2023-11-27 05:48:44 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-27 05:48:44 --> 220 smtp.gmail.com ESMTP q7-20020a170902dac700b001cca8a01e68sm7030411plx.278 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [103.66.7.201]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK q7-20020a170902dac700b001cca8a01e68sm7030411plx.278 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. q7-20020a170902dac700b001cca8a01e68sm7030411plx.278 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. q7-20020a170902dac700b001cca8a01e68sm7030411plx.278 - gsmtp
+
+quit: 221 2.0.0 closing connection q7-20020a170902dac700b001cca8a01e68sm7030411plx.278 - gsmtp
+
+CRITICAL - 2023-11-27 11:04:34 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-27 11:04:40 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-27 11:06:06 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-27 11:06:10 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-27 11:06:10 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-27 11:06:10 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-27 11:06:11 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-27 11:06:11 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-27 11:06:11 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-27 12:52:10 --> Undefined array key "temp_name"
+in APPPATH\Controllers\Controllerclients.php on line 424.
+ 1 APPPATH\Controllers\Controllerclients.php(424): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "temp_name"', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllerclients.php', 424)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerclients->uploadCandidate()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerclients))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-27 12:53:34 --> Undefined array key 9
+in APPPATH\Controllers\Controllerclients.php on line 438.
+ 1 APPPATH\Controllers\Controllerclients.php(438): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 9', 'C:\\xampp\\htdocs\\ReliableVerify\\app\\Controllers\\Controllerclients.php', 438)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Controllerclients->uploadCandidate()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerclients))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

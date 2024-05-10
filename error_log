@@ -1,0 +1,1 @@
+[26-Oct-2023 06:31:26 UTC] PHP Fatal error:  Cannot use App\Models\clientModel as clientModel because the name is already in use in /home3/reliableverify/public_html/crm/app/Controllers/Controllerclients.php on line 16

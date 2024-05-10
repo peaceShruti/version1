@@ -1,0 +1,100 @@
+CRITICAL - 2024-04-27 04:49:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\view-invoice.php on line 55.
+ 1 APPPATH\Views\view-invoice.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view-invoice', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('view-invoice', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->invoiceView()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 04:53:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\view-invoice.php on line 55.
+ 1 APPPATH\Views\view-invoice.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view-invoice', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('view-invoice', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->invoiceView()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 04:53:11 --> Trying to access array offset on value of type null
+in APPPATH\Views\view-invoice.php on line 55.
+ 1 APPPATH\Views\view-invoice.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view-invoice', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('view-invoice', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->invoiceView()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 04:54:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\view-invoice.php on line 56.
+ 1 APPPATH\Views\view-invoice.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php', 56)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view-invoice', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('view-invoice', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->invoiceView()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 04:54:52 --> Trying to access array offset on value of type null
+in APPPATH\Views\view-invoice.php on line 56.
+ 1 APPPATH\Views\view-invoice.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php', 56)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view-invoice', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('view-invoice', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->invoiceView()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 04:55:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\view-invoice.php on line 56.
+ 1 APPPATH\Views\view-invoice.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php', 56)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view-invoice', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('view-invoice', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->invoiceView()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 04:55:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\view-invoice.php on line 56.
+ 1 APPPATH\Views\view-invoice.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php', 56)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view-invoice', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('view-invoice', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->invoiceView()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 05:31:04 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Home.php on line 153.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 05:31:40 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 13.
+ 1 APPPATH\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Controllers\\Home.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 05:32:49 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 14.
+ 1 APPPATH\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Controllers\\Home.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
