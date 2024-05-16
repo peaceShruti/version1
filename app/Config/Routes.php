@@ -40,6 +40,7 @@ $routes->get('/emi-calculator', 'Home::emiCalculator');
 $routes->get('/documents-checklist', 'Home::documentsChecklist');
 $routes->get('/get', 'Home::getValues');
 $routes->get('/eligibility-calculator', 'Home::eligibilityCalculator');
+$routes->get('/eligibility', 'Home::eligibility');
 $routes->get('/bank-products', 'Home::bankProducts');
 $routes->get('/invoice', 'Home::Invoice');
 $routes->post('/invoice', 'Home::insertInvoice');

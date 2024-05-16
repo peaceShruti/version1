@@ -1,0 +1,82 @@
+CRITICAL - 2024-05-10 08:10:56 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 14.
+ 1 APPPATH\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Controllers\\Home.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 08:11:08 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 15.
+ 1 APPPATH\Controllers\Home.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Controllers\\Home.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 08:19:47 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 53.
+ 1 APPPATH\Controllers\Home.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Controllers\\Home.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->documentsChecklist()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 09:38:19 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 54.
+ 1 APPPATH\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Controllers\\Home.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->documentsChecklist()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 10:11:44 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 54.
+ 1 APPPATH\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Controllers\\Home.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->documentsChecklist()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 10:11:44 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 54.
+ 1 APPPATH\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Controllers\\Home.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->documentsChecklist()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 10:11:57 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 54.
+ 1 APPPATH\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Controllers\\Home.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->documentsChecklist()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 10:50:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\view-invoice.php on line 56.
+ 1 APPPATH\Views\view-invoice.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php', 56)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view-invoice', [], true)
+ 5 APPPATH\Controllers\Home.php(167): view('view-invoice', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->invoiceView()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 11:01:25 --> Trying to access array offset on value of type null
+in APPPATH\Views\view-invoice.php on line 56.
+ 1 APPPATH\Views\view-invoice.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php', 56)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view-invoice', [], true)
+ 5 APPPATH\Controllers\Home.php(168): view('view-invoice', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->invoiceView()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 11:01:28 --> Trying to access array offset on value of type null
+in APPPATH\Views\view-invoice.php on line 56.
+ 1 APPPATH\Views\view-invoice.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php', 56)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\anyloandoc.com\\version1\\app\\Views\\view-invoice.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view-invoice', [], true)
+ 5 APPPATH\Controllers\Home.php(168): view('view-invoice', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->invoiceView()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

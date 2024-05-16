@@ -98,5 +98,5 @@ class Autoload extends AutoloadConfig
      * @phpstan-var list<string>
      */
     public $helpers = ['validation', 'time', 'date', 'session' ,'url', 'form'];
-    
+    public $libraries= ['database', 'session', 'form_validation'] ;
 }

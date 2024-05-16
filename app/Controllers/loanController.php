@@ -21,6 +21,3 @@ class loanController extends Controller
        
     }
 }
-<!-- <? echo form_open('get');?> -->
-<?php echo form_submit(['name'=>'submit', 'value' =>'Generate Result'] );?>
-<? echo form_close();?>
